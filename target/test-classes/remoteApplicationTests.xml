@@ -1,4 +1,4 @@
-<suite name="Suite" parallel="classes" thread-count="4">
+<suite name="Suite" parallel="classes" thread-count="1">
 	<listeners>
 		<listener class-name="com.orangehrm.listeners.MyListener"></listener>
 	</listeners>
