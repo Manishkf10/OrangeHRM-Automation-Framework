@@ -2,6 +2,8 @@ package com.orangehrm.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,8 +15,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class MyExcelReader {
-	private static final String FILE_PATH=System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx";
-
+	//private static final String FILE_PATH=System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx";
+	public static Path path = Paths.get("src", "test", "resources", "testdata", "testData1.xlsx");
+	
 
 	public static List<String[]> getCellData(String filePath,String sheetName) {
 		List<String[]> data=new ArrayList<>();
@@ -50,7 +53,7 @@ public class MyExcelReader {
 		
 		
 		try(
-				FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx");
+				FileInputStream fi=new FileInputStream(path.toFile());
 				Workbook book=WorkbookFactory.create(fi)){
 			Sheet sheet=book.getSheet(sheetname);
 			if(sheet==null) {
