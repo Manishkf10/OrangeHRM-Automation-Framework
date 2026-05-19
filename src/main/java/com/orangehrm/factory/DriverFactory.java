@@ -38,7 +38,9 @@ public class DriverFactory {
 		
 		switch(browser.toLowerCase()) {
 		
-		case "chrome" 	: return new ChromeDriver();
+		case "chrome" 	: 	ChromeOptions options=new ChromeOptions();
+							options.addArguments("--headless=new");
+							return new ChromeDriver(options);
 		case "firefox"	: return new FirefoxDriver();
 		case "edge"		:return new EdgeDriver();
 		default			:throw new RuntimeException("Invalid browser");

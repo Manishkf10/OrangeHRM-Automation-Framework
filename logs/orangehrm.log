@@ -1,19 +1,19 @@
-2026-05-19 14:00:00 INFO  com.orangehrm.base.BaseTest - config.properties loaded
-2026-05-19 14:00:03 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 14:00:07 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 14:00:07 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
-2026-05-19 14:00:07 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
-2026-05-19 14:00:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 14:00:08 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-19 14:00:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 14:00:08 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-19 14:00:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 14:00:09 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 14:00:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
-2026-05-19 14:00:11 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
-2026-05-19 14:00:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-19 14:00:12 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-19 14:00:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
-2026-05-19 14:00:15 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
-2026-05-19 14:00:16 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 14:00:16 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 16:05:41 INFO  com.orangehrm.base.BaseTest - config.properties loaded
+2026-05-19 16:05:45 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 16:05:48 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 16:05:48 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+2026-05-19 16:05:48 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 16:05:49 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 16:05:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
+2026-05-19 16:05:51 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
+2026-05-19 16:05:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
+2026-05-19 16:05:51 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
+2026-05-19 16:05:52 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
+2026-05-19 16:05:53 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
+2026-05-19 16:05:54 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 16:05:54 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
