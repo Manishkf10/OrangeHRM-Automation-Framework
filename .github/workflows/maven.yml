@@ -1,0 +1,83 @@
+name: Selenium-TestNG Framework
+
+on:
+  push:
+    branches: [ "master" ]
+
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  selenium-tests:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      checks: write
+      issues: write
+
+    steps:
+
+    - name: Checkout Project
+      uses: actions/checkout@v4
+
+    - name: Setup Java 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@v1
+
+    - name: Verify Chrome
+      run: google-chrome --version
+
+    - name: Build Project
+      run: mvn clean install -DskipTests
+
+    - name: Execute Selenium Tests
+      run: mvn test
+
+    # Upload Logs
+    - name: Upload Logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: Logs
+        path: logs/
+
+    # Upload Extent Reports
+    - name: Upload Extent Reports
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ExtentReports
+        path: reports/
+
+    # Upload TestNG test-output
+    - name: Upload TestNG Reports
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: TestNG-Output
+        path: test-output/
+
+    # Upload Screenshots (if failed screenshots exist)
+    - name: Upload Screenshots
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: Screenshots
+        path: screenshots/
+
+    # Publish Test Results in GitHub UI
+    - name: Publish Test Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: Selenium TestNG Results
+        path: target/surefire-reports/junitreports/TEST-*.xml
+        reporter: java-junit
