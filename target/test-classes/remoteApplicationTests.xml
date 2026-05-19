@@ -6,9 +6,10 @@
     <test
 		name="Test1">
 		<classes>
-			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />
-			<!--<class name="com.orangehrm.tesetcases.TC005AdditionAndDelete" />
-			<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    -->
+			
+			<class name="com.orangehrm.tesetcases.TC005AdditionAndDelete" />
+	<!--		<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    
+			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />-->
 			
 		</classes>
 	</test>
