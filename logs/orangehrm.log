@@ -1,134 +1,134 @@
-2026-05-19 11:57:40 INFO  com.orangehrm.base.BaseTest - config.properties loaded
-2026-05-19 11:57:44 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:57:44 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:57:44 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:57:45 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:57:45 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-19 11:57:45 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:57:45 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
-2026-05-19 11:57:45 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
-2026-05-19 11:57:49 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
-2026-05-19 11:57:50 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-19 11:57:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:57:52 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:57:52 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:57:52 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:57:52 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:57:53 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:57:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:57:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
-2026-05-19 11:57:54 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
-2026-05-19 11:57:54 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:57:54 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:57:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-19 11:57:55 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-19 11:57:55 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:57:55 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
-2026-05-19 11:57:55 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.linkText: Add Employee
-2026-05-19 11:57:57 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
-2026-05-19 11:57:57 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
-2026-05-19 11:57:58 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder="First Name"]
-2026-05-19 11:57:58 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:57:58 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
-2026-05-19 11:57:58 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Middle Name']
-2026-05-19 11:57:58 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:57:58 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-19 11:57:58 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Last Name']
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //p[text()='Create Login Details']/following-sibling::div
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:57:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
-2026-05-19 11:57:59 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:57:59 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:58:00 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:58:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:58:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
-2026-05-19 11:58:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:58:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
-2026-05-19 11:58:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:58:03 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:58:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:58:03 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:58:05 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:58:05 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:58:05 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:58:05 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:58:06 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:58:06 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:58:07 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:58:07 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-19 11:58:10 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:58:11 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:58:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:58:12 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
-2026-05-19 11:58:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:58:12 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
-2026-05-19 11:58:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:58:13 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:58:13 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:58:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:58:15 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-19 11:58:15 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:58:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:58:16 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:58:16 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:58:16 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:58:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
-2026-05-19 11:58:16 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-19 11:58:17 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:17 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:18 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:18 INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:19 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:58:19 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-19 11:58:20 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-19 11:58:23 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
-2026-05-19 11:58:24 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-19 11:58:26 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:58:27 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
-2026-05-19 11:58:28 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
-2026-05-19 11:58:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
-2026-05-19 11:58:31 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
-2026-05-19 11:58:32 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-19 11:58:32 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:54:49 INFO  com.orangehrm.base.BaseTest - config.properties loaded
+2026-05-19 12:54:58 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:54:58 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:54:59 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:55:00 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:04 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:04 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-19 12:55:04 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:04 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+2026-05-19 12:55:04 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+2026-05-19 12:55:05 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:07 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-19 12:55:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:07 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-19 12:55:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:07 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:08 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:08 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
+2026-05-19 12:55:09 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
+2026-05-19 12:55:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
+2026-05-19 12:55:09 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
+2026-05-19 12:55:10 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
+2026-05-19 12:55:12 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:14 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.linkText: Add Employee
+2026-05-19 12:55:14 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
+2026-05-19 12:55:14 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:14 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:15 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
+2026-05-19 12:55:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder="First Name"]
+2026-05-19 12:55:15 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
+2026-05-19 12:55:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Middle Name']
+2026-05-19 12:55:16 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Last Name']
+2026-05-19 12:55:17 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:17 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //p[text()='Create Login Details']/following-sibling::div
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+2026-05-19 12:55:17 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:18 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:20 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:20 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:21 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:23 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:24 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:24 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:24 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:24 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:26 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:55:26 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:55:29 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:29 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:30 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:31 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:32 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:33 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:33 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:37 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:38 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:39 INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:40 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:40 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-19 12:55:41 INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-19 12:55:44 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+2026-05-19 12:55:45 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-19 12:55:48 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:50 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+2026-05-19 12:55:50 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:50 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+2026-05-19 12:55:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+2026-05-19 12:55:52 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+2026-05-19 12:55:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+2026-05-19 12:55:54 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+2026-05-19 12:55:55 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-19 12:55:55 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated

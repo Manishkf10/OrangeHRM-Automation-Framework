@@ -16,7 +16,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class MyExcelReader {
-	private static final String FILE_PATH=System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\testData1.xlsx";
+	private static final String FILE_PATH=System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx";
 
 
 	public static List<String[]> getCellData(String filePath,String sheetName) {

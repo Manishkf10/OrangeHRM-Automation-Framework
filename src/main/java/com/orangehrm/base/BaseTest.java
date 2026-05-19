@@ -51,7 +51,7 @@ public class BaseTest {
 	
 		try {
 			ppt=new Properties();
-			FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties");
+			FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/config.properties");
 			ppt.load(fi);
 			log.info("config.properties loaded");
 		
