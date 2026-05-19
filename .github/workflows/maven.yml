@@ -55,7 +55,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ExtentReports
-        path: reports/
+        path: extentReports/
 
     # Upload TestNG test-output
     - name: Upload TestNG Reports
@@ -65,13 +65,7 @@ jobs:
         name: TestNG-Output
         path: test-output/
 
-    # Upload Screenshots (if failed screenshots exist)
-    - name: Upload Screenshots
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: Screenshots
-        path: screenshots/
+ 
 
     # Publish Test Results in GitHub UI
     - name: Publish Test Report
