@@ -1,19 +1,16 @@
 package com.orangehrm.utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class MyExcelReader {
 	private static final String FILE_PATH=System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx";
@@ -53,7 +50,7 @@ public class MyExcelReader {
 		
 		
 		try(
-				FileInputStream fi=new FileInputStream(FILE_PATH);
+				FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx");
 				Workbook book=WorkbookFactory.create(fi)){
 			Sheet sheet=book.getSheet(sheetname);
 			if(sheet==null) {
