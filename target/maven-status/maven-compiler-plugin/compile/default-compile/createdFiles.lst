@@ -1,3 +1,4 @@
+com\orangehrm\utilities\EnvironmentManager.class
 com\orangehrm\utilities\APIUtilities.class
 com\orangehrm\utilities\DBconnectionUtil.class
 com\orangehrm\utilities\RetryAnalyzer.class
@@ -5,6 +6,7 @@ com\orangehrm\pages\HomePage.class
 com\orangehrm\utilities\MyExtentReport.class
 com\orangehrm\actiondriver\ActionDriver.class
 com\orangehrm\pages\PIMpage.class
+com\orangehrm\factory\DriverFactory.class
 com\orangehrm\pages\LoginPage.class
 com\orangehrm\utilities\MyDataProvider.class
 com\orangehrm\utilities\MyExcelReader.class
