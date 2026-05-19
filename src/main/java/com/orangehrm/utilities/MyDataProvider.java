@@ -1,5 +1,7 @@
 package com.orangehrm.utilities;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 import org.testng.annotations.DataProvider;
@@ -7,7 +9,9 @@ import org.testng.annotations.DataProvider;
 public class MyDataProvider {
 
 	
-	private static final String FILE_PATH=System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\testData1.xlsx";
+	//private static final String FILE_PATH=System.getProperty("user.dir")+"/src/test/resources/testdata/testData1.xlsx";
+	public static Path path = Paths.get("src", "test", "resources", "testdata", "testData1.xlsx");
+
 	
 	@DataProvider(name="ValidLoginLocal")
 	public static Object[][] getValidLoginData(){
@@ -32,7 +36,7 @@ public class MyDataProvider {
 	
 	
 	private static Object[][] getSheetData(String sheetName){
-		List<String[]> sheetData= MyExcelReader.getCellData(FILE_PATH, sheetName);
+		List<String[]> sheetData= MyExcelReader.getCellData(path.toFile(), sheetName);
 		
 		Object[][] data=new Object[sheetData.size()][];
 		

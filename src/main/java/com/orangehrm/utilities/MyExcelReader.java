@@ -1,5 +1,6 @@
 package com.orangehrm.utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -19,7 +20,7 @@ public class MyExcelReader {
 	public static Path path = Paths.get("src", "test", "resources", "testdata", "testData1.xlsx");
 	
 
-	public static List<String[]> getCellData(String filePath,String sheetName) {
+	public static List<String[]> getCellData(File filePath,String sheetName) {
 		List<String[]> data=new ArrayList<>();
 		
 		try(FileInputStream fi=new FileInputStream(filePath);
