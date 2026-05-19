@@ -2,10 +2,10 @@ name: Selenium-TestNG Framework
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "manish" ]
 
   pull_request:
-    branches: [ "master" ]
+    branches: [ "manish" ]
 
 jobs:
   selenium-tests:
