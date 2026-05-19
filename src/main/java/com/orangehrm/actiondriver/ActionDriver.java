@@ -9,6 +9,7 @@ import java.util.Set;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -17,6 +18,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.orangehrm.base.BaseTest;
+import com.orangehrm.factory.DriverFactory;
 import com.orangehrm.utilities.MyExtentReport;
 
 public class ActionDriver {
@@ -48,6 +50,7 @@ public class ActionDriver {
 	public void waitForEleClickable(By by) {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(by));
+			
 		} catch (Exception e) {
 			log.error("unable to click on : "+by.toString()+e.getMessage());
 		}
@@ -80,7 +83,7 @@ public class ActionDriver {
 		} catch (Exception e) {
 			applyColorBorder(by, "red");
 			log.error("unable to click on : "+by.toString()+e.getMessage());
-			MyExtentReport.logFailure(BaseTest.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
+			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
 		}
 	}
 
@@ -88,48 +91,78 @@ public class ActionDriver {
 	public void enterText(By by, String value) {
 		try {
 			waitForEleClickable(by);
-			applyColorBorder(by, "green");
-			WebElement ele= driver.findElement(by);
-			ele.clear();
+			WebElement ele=applyColorBorder(by, "green");
+			ele.sendKeys(Keys.CONTROL + "a");
+			ele.sendKeys(Keys.DELETE);
 			ele.sendKeys(value);
 			logBothinfo("enter text : "+value+" in : "+by.toString());
 			MyExtentReport.logStep("click on : "+by.toString());
 		} catch (Exception e) {
 			applyColorBorder(by, "red");
 			log.error("unable to enter text in : "+by.toString()+e.getMessage());
-			MyExtentReport.logFailure(BaseTest.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
+			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
 		}
+	}
+	
+	//get text
+	public String getEleText(By by) {
+		
+		try {
+			waitForEleClickable(by);
+			applyColorBorder(by, "green");
+			WebElement ele= driver.findElement(by);
+			String value=ele.getText();
+			logBothinfo("get text : "+value+" in : "+by.toString());
+			MyExtentReport.logStep("click on : "+by.toString());
+			return ele.getText();
+		} catch (Exception e) {
+			applyColorBorder(by, "red");
+			log.error("unable to enter text in : "+by.toString()+e.getMessage());
+			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
+			return null;
+		}
+		
 	}
 	
 //for compare text
 	public boolean compareText(By by, String expected) {
 		try {
-			waitForEleVisibility(by);
-			WebElement ele=driver.findElement(by);
+			wait.until(ExpectedConditions.textToBe(by, expected));
+			WebElement ele = driver.findElement(by);
+			String actual = ele.getText().trim();
+			String expect = expected.trim();
 			
-			String actual=ele.getText();
-			if(actual.equals(expected)) {
+		
+		
+			if (actual.equals(expected.trim())) {
+				
 				applyColorBorder(by, "green");
-				log.info("'"+expected+"' is matched to '"+actual+"' at location :"+by.toString());
-				MyExtentReport.logStepWithScreenshot(BaseTest.getDriver(), "'"+expected+"' is matched to '"+actual+"' at location :"+by.toString(), "Actual text is similar to expected");
+				log.info("'" + expected + "' is matched to '" + actual + "' at location :" + by.toString());
+				MyExtentReport.attachSceenshot(DriverFactory.getDriver(),"'" + expected + "' is matched to '" + actual + "' at location :" + by.toString());  
+							
 				return true;
-			}
-			else {
+			} else {
 				applyColorBorder(by, "red");
-				log.info(expected+" is not matched to "+actual+" at location :"+by.toString());
-				MyExtentReport.logFailure(BaseTest.getDriver(), expected+" is not matched to "+actual+" at location :"+by.toString(), "Actual text is not similar to expected");
+				
+				log.info(expected + " is not matched to " + actual + " at location :" + by.toString());
+				
+				MyExtentReport.logFailure(DriverFactory.getDriver(),
+						expected + " is not matched to " + actual + " at location :" + by.toString(),
+						"Actual text is not similar to expected");
+				
 				return false;
 			}
 		} catch (Exception e) {
-			
+
 			applyColorBorder(by, "red");
-			log.error("unable to compare text : "+expected+e.getMessage());
-			MyExtentReport.logFailure(BaseTest.getDriver(), "unable to compare text : "+expected+e.getMessage(), "unable to compare text");
+			log.error("unable to compare text : " + expected + e.getMessage());
+			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to compare text : " + expected + e.getMessage(),
+					"unable to compare text");
 			return false;
 		}
-		
+
 	}
-	
+
 	//check visibility
 	public boolean isVisible(By by) {
 		try {
@@ -139,34 +172,36 @@ public class ActionDriver {
 			if(result) {
 				applyColorBorder(by, "green");
 				log.info("element located by : "+by.toString()+" is visible");
-				MyExtentReport.logStepWithScreenshot(BaseTest.getDriver(), "element located by : "+by.toString()+" is visible", "element is visible");
+				MyExtentReport.logStepWithScreenshot(DriverFactory.getDriver(), "element located by : "+by.toString()+" is visible", "element is visible");
 				return true;
 			}else {
 				applyColorBorder(by, "red");
 				log.info("element located by : "+by+" is not visible");
-				MyExtentReport.logFailure(BaseTest.getDriver(),"element located by : "+by.toString()+" is not visible",by.toString()+" is not displayed");
+				MyExtentReport.logFailure(DriverFactory.getDriver(),"element located by : "+by.toString()+" is not visible",by.toString()+" is not displayed");
 				return false;
 			}
 		} catch (Exception e) {
 			applyColorBorder(by, "red");
 			log.error("unable to check visibility of :"+by.toString()+e.getMessage());
-			MyExtentReport.logFailure(BaseTest.getDriver(),"unable to check visibility of :"+by.toString()+e.getMessage(),by.toString()+" is not displayed");
+			MyExtentReport.logFailure(DriverFactory.getDriver(),"unable to check visibility of :"+by.toString()+e.getMessage(),by.toString()+" is not displayed");
 			return false;
 		}
 	}	
 	
 	// to color element border
-	public void applyColorBorder(By by, String color) {
+	public WebElement applyColorBorder(By by, String color) {
+		WebElement ele;
 		try {
-			WebElement ele= driver.findElement(by);
+			ele= driver.findElement(by);
 			String script="arguments[0].style.border='3px solid "+color+"'";
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			js.executeScript(script,ele);
 			logBothinfo("Color applied "+color+" to element "+by.toString());
+			return ele;
 			
 		} catch (Exception e) {
 			log.error("unable to color applied "+color+" to element "+by.toString()+e.getMessage());
-			
+			return null;
 		}
 	}
 	
@@ -299,7 +334,7 @@ public class ActionDriver {
 
 //		===================== Frame Handling	=============================
 		//to switch into i-frame
-		public void switchToFrom(By by) {
+		public void switchToFrame(By by) {
 			try {
 				driver.switchTo().frame(driver.findElement(by));
 				logBothinfo("switch to frame located by : "+by.toString());

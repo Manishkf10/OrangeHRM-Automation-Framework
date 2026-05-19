@@ -28,7 +28,7 @@ public class MyExtentReport {
 	
 	public synchronized static ExtentReports getReporter() {
 		if(extent==null) {
-			String path= System.getProperty("user.dir")+"\\reports\\extentReports\\myreports.html";
+			String path= System.getProperty("user.dir")+"\\extentReports\\myreports.html";
 			ExtentSparkReporter spark= new ExtentSparkReporter(path);
 			spark.config().setReportName("automation reports");
 			spark.config().setDocumentTitle("orangehrm reports");
@@ -46,9 +46,11 @@ public class MyExtentReport {
 	
 	//to start test
 	public synchronized static ExtentTest startTest(String testName) {
-		System.out.println(testName+" is started");
-		ExtentTest extentTest= getReporter().createTest(testName);
-		test.set(extentTest);
+		if (extent == null) {
+	        getReporter();
+	    }
+		ExtentTest extentTest= getReporter().createTest(testName);		
+		test.set(extentTest);	
 		return extentTest;
 	}
 	
@@ -59,6 +61,8 @@ public class MyExtentReport {
 	
 	//to get current thread's test
 	public synchronized static ExtentTest getTest() {
+		if(test.get()==null){
+		}
 		return test.get();
 	}
 	
@@ -75,15 +79,17 @@ public class MyExtentReport {
 	
 	//log a step
 	public static void logStep(String logMessage) {
+		if(getTest()!=null)
 		getTest().info(logMessage);
 	}
 	
 	//log a step validation with screenshot
 	public static void logStepWithScreenshot(WebDriver driver,String logMessage,String screenshotMessage) {
-		getTest().pass(logMessage);
 		
+		getTest().pass(logMessage);		
 		//add screenshot method
 		attachSceenshot(driver, screenshotMessage);
+		
 	}
 	//log a step validation API
 	public static void APIlogStep(String logMessage) {
@@ -93,11 +99,13 @@ public class MyExtentReport {
 	
 	//log a failure
 	public static void logFailure(WebDriver driver,String logMessage,String screenshotMessage) {
-		String colorMessage=String.format("<span style='color:red;'>%s</span>", logMessage);
-		getTest().fail(colorMessage);
-		
-		//add screenshot method
-		attachSceenshot(driver, screenshotMessage);
+		if(getTest()!=null) {
+			String colorMessage=String.format("<span style='color:red;'>%s</span>", logMessage);
+			getTest().fail(colorMessage);
+			
+			//add screenshot method
+			attachSceenshot(driver, screenshotMessage);
+		}
 	}
 	//log a failure for API
 	public static void APIlogFailure(String logMessage) {
@@ -117,7 +125,12 @@ public class MyExtentReport {
 	public synchronized static String takeScreenshot(WebDriver driver, String screenshotName) {
 	
 		TakesScreenshot ts=(TakesScreenshot)driver;
-		File scr=ts.getScreenshotAs(OutputType.FILE);
+		String base64Screenshot=ts.getScreenshotAs(OutputType.BASE64);
+		return base64Screenshot;
+	}
+		/*
+		//File scr=ts.getScreenshotAs(OutputType.FILE);
+		
 		//Format date and time for file name
 		String timeStamp=  new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 		//saving screenshot to a file
@@ -133,6 +146,7 @@ public class MyExtentReport {
 		//converting screenshot to base64 for embedding in the report
 		String base64Format=convertToBase64(scr);
 		return base64Format;
+		
 	}
 	
 	//utility for coverting screenshot to base64 format
@@ -150,10 +164,15 @@ public class MyExtentReport {
 		return base64Format;
 		
 	}
-	
+	*/
 	
 	//to attached screenshot to report using Base64
 	public static void attachSceenshot(WebDriver driver, String message) {
+		 if (getTest() == null || driver == null) {
+		        return;
+		    }
+
+		    
 		try {
 			String screenshotBase64=takeScreenshot(driver, getTestName());
 			getTest().info(message,com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(screenshotBase64).build());

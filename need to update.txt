@@ -1,0 +1,5 @@
+How to automatically select url as per env-production,docker,localhost 
+How to select username & password as per url
+
+In logs, dont want to display x-path value instead of can we pass reference and page name also
+When the test get skipped not message is displayed so reason not define

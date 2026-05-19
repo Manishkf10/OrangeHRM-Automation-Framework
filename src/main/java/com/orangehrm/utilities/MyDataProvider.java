@@ -9,9 +9,13 @@ public class MyDataProvider {
 	
 	private static final String FILE_PATH=System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\testData1.xlsx";
 	
-	@DataProvider(name="validData")
+	@DataProvider(name="ValidLoginLocal")
 	public static Object[][] getValidLoginData(){
-		return getSheetData("ValidData");
+		return getSheetData("ValidLoginLocal");
+	}
+	@DataProvider(name="ValidLoginRemote")
+	public static Object[][] getValidLoginDataForRemote(){
+		return getSheetData("ValidLoginRemote");
 	}
 	@DataProvider(name="invalidData")
 	public static Object[][] getInvalidLoginData(){
@@ -20,6 +24,10 @@ public class MyDataProvider {
 	@DataProvider(name="empDetails")
 	public static Object[][] getEmpDetails(){
 		return getSheetData("empDetails");
+	}
+	@DataProvider(name="CreateEmpDetails")
+	public static Object[][] CreateEmpDetails(){
+		return getSheetData("CreateEmpDetails");
 	}
 	
 	

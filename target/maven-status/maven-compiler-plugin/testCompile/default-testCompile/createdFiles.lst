@@ -1,0 +1,4 @@
+com\orangehrm\tesetcases\DB_EmployeeVerification.class
+com\orangehrm\tesetcases\TC001InvalidLoginTest.class
+com\orangehrm\tesetcases\APItest.class
+com\orangehrm\tesetcases\TC002validLoginTest.class

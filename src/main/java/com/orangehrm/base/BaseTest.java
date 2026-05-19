@@ -3,6 +3,8 @@ package com.orangehrm.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -16,13 +18,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.factory.DriverFactory;
+import com.orangehrm.utilities.EnvironmentManager;
 import com.orangehrm.utilities.MyExtentReport;
 import com.orangehrm.utilities.MyLogsManager;
 
@@ -33,9 +40,8 @@ public class BaseTest {
 	//public WebDriver driver;
 	//public static ActionDriver act;
 	protected static Properties ppt;
+
 	public static Logger log=MyLogsManager.getLogs(BaseTest.class);
-	
-	private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
 	private static ThreadLocal<ActionDriver> act=new ThreadLocal<>();
 	private static ThreadLocal<SoftAssert> soft=ThreadLocal.withInitial(SoftAssert::new);
 	
@@ -56,83 +62,37 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
-	public synchronized void setup() {
-		launchBrowser();
+	@Parameters({"browser"})
+	public synchronized void setup(@Optional("chrome")String browser) {
+	
+		DriverFactory.initDriver();	
 		setBrowserProperties();
-		createActionDriverOnce();
+		initializeActionDriver();
 	}
 	
 	@AfterMethod
 	public void tearDown() {
 		staticWait(200);
-		if(driver!=null) {
-			try {
-				getDriver().quit();
-			} catch (Exception e) {
-				log.info("unable to quit driver");
-			}
-		}
-		driver.remove();
+		DriverFactory.quitDriver();
 		act.remove();
+		soft.remove();
 		log.info("WebDriver instance terminated");
 		log.info("ActionDriver instance terminated");
 		
 	}
+
 	
-	protected void launchBrowser() {
-		String browser = ppt.getProperty("browser");
-		log.info("selected browser is :" + browser);
-		switch (browser.toLowerCase()) {
-		case "chrome":
-			ChromeOptions chromeOptions = new ChromeOptions();
-			
-			chromeOptions.addArguments("--window-size=1920,1080");
-			chromeOptions.addArguments("--disable-notifications");
-			chromeOptions.addArguments("--disable-infobars");
-			chromeOptions.addArguments("--disable-extensions");
-			chromeOptions.addArguments("--remote-allow-origins=*");
-			chromeOptions.addArguments("--no-sandbox");
-			chromeOptions.addArguments("--disable-dev-shm-usage");
-			chromeOptions.addArguments("--headless=new");
-			
-			driver.set(new ChromeDriver(chromeOptions));
-			MyExtentReport.registerDriver(getDriver());
-			break;
-		case "firefox":
-			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			firefoxOptions.addArguments("--width=1920");
-			firefoxOptions.addArguments("--height=1080");
-			firefoxOptions.addArguments("--headless");
-			driver.set(new FirefoxDriver(firefoxOptions));
-			MyExtentReport.registerDriver(getDriver());
-			break;
-		case "edge":
-			EdgeOptions edgeOptions = new EdgeOptions();
-			edgeOptions.addArguments("--window-size=1920,1080");
-			edgeOptions.addArguments("--disable-notifications");
-			edgeOptions.addArguments("--no-sandbox");
-			edgeOptions.addArguments("--disable-dev-shm-usage");
-			edgeOptions.addArguments("--headless=new");
-			driver.set(new EdgeDriver(edgeOptions));
-			MyExtentReport.registerDriver(getDriver());
-			break;
-		default:
-			log.info("unable to launch browser");
-		}
-		log.info("WebDriver instance initialized");
-		//System.out.println("WebDriver instance id :" + Thread.currentThread().getId());
-	}
 	
 	protected void setBrowserProperties() {
-		String url= ppt.getProperty("url");
+		
+		String url= EnvironmentManager.getApplicationURL();
 		log.info("selected url is :"+url);
 		getDriver().get(url);
-		//getDriver().manage().window().maximize();
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ppt.getProperty("implicitWail"))));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ppt.getProperty("implicitWait"))));
 	}
 	
 	public static void staticWait(int num){
-		//int seconds=Integer.parseInt(ppt.getProperty("staticWait"));
+	
 		LockSupport.parkNanos(TimeUnit.MILLISECONDS.toNanos(num));
 	}
 	
@@ -142,13 +102,12 @@ public class BaseTest {
 		return value;
 	}
 	
-	//getter for webDriver
-	public static WebDriver getDriver() {
-		if(driver.get()==null) {
-			log.info("WebDriver not initialized");
-		}
-		return driver.get();
-	}
+	public void initializeActionDriver() {
+		 if(act.get() == null) {
+		        act.set(new ActionDriver(DriverFactory.getDriver()));
+		    }
+			
+		}	
 	
 	//getter for ActionDriver
 		public static ActionDriver getActionDriver() {
@@ -159,14 +118,15 @@ public class BaseTest {
 			return act.get();
 		}
 
-	//singletoneactionDriver
-	public void createActionDriverOnce() {
-		
-			act.set(new ActionDriver(getDriver()));
-		
+	
+
+	//getter for webDriver
+	public  static WebDriver getDriver() {
+	    return DriverFactory.getDriver();
 	}
+	
 	//getter for softAssert
-	public SoftAssert getSoftAssert() {
+	public static SoftAssert getSoftAssert() {
 		return soft.get();
 	}
 	

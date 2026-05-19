@@ -10,6 +10,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.ITestAnnotation;
 
 import com.orangehrm.base.BaseTest;
+import com.orangehrm.factory.DriverFactory;
 import com.orangehrm.utilities.MyExtentReport;
 import com.orangehrm.utilities.RetryAnalyzer;
 
@@ -33,9 +34,15 @@ public class MyListener implements ITestListener,IAnnotationTransformer{
 
 	@Override
 	public void onTestStart(ITestResult result) {
+		
+		
 		String testName=result.getMethod().getMethodName();
-		MyExtentReport.startTest(testName);
-		MyExtentReport.logStep("Test Started : "+testName);
+		if (MyExtentReport.getTest() == null) {
+	        MyExtentReport.startTest(testName);
+	        MyExtentReport.logStep("Test Started : "+testName);
+	    }
+		
+		
 	}
 
 	@Override
@@ -43,7 +50,7 @@ public class MyListener implements ITestListener,IAnnotationTransformer{
 		String testName=result.getMethod().getMethodName();
 		if(!result.getTestClass().getName().toLowerCase().contains("api")) {
 			BaseTest.staticWait(500);
-			MyExtentReport.logStepWithScreenshot(BaseTest.getDriver(), "Test Passed successfully", testName+" -passed ✅");
+			MyExtentReport.logStepWithScreenshot(DriverFactory.getDriver(), "Test Passed successfully", testName+" -passed ✅");
 		}
 		else {
 			MyExtentReport.APIlogStep("Test Passed successfully : "+ testName+" -passed ✅");
@@ -56,7 +63,7 @@ public class MyListener implements ITestListener,IAnnotationTransformer{
 		String failureMessage= result.getThrowable().getMessage();
 		MyExtentReport.logStep(failureMessage);
 		if(!result.getTestClass().getName().toLowerCase().contains("api")) {
-			MyExtentReport.logFailure(BaseTest.getDriver(), "Test failed", testName+" -failed ❌");
+			MyExtentReport.logFailure(DriverFactory.getDriver(), "Test failed", testName+" -failed ❌");
 		}
 		else {
 			MyExtentReport.APIlogFailure("Test failed : "+ testName+" -failed ❌");

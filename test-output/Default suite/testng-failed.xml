@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.tesetcases.DemoTest">
+      <class name="com.orangehrm.tesetcases.TC005AdditionAndDelete">
         <methods>
+          <include name="searchEmployee"/>
           <include name="readConfig"/>
           <include name="tearDown"/>
-          <include name="demo"/>
+          <include name="deleteEmployee"/>
           <include name="setup"/>
+          <include name="pageSetup"/>
         </methods>
-      </class> <!-- com.orangehrm.tesetcases.DemoTest -->
+      </class> <!-- com.orangehrm.tesetcases.TC005AdditionAndDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

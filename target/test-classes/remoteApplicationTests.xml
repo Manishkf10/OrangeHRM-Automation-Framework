@@ -1,0 +1,19 @@
+<suite name="Suite" parallel="classes" thread-count="4">
+	<listeners>
+		<listener class-name="com.orangehrm.listeners.MyListener"></listener>
+	</listeners>
+	
+    <test
+		name="Test1">
+		<classes>
+			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />
+			<class name="com.orangehrm.tesetcases.TC005AdditionAndDelete" />
+			<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />
+			
+		</classes>
+	</test>
+	
+
+    
+
+</suite>

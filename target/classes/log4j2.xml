@@ -10,7 +10,7 @@
         </Console>
 
         <!-- File Logger -->
-        <File name="FileLogger" fileName="logs/orangehrm.log" append="true">
+        <File name="FileLogger" fileName="logs/orangehrm.log" append="false">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %C - %msg%n"/>
         </File>
 
