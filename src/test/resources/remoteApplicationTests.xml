@@ -1,15 +1,35 @@
-<suite name="Suite" parallel="classes" thread-count="1">
+<suite name="Suite" parallel="classes" thread-count="4">
 	<listeners>
 		<listener class-name="com.orangehrm.listeners.MyListener"></listener>
 	</listeners>
 	
-    <test
-		name="Test1">
+    <test name="chromeTest" >
+    		 <parameter name="browser" value="chrome"/>
 		<classes>
 			
-			<class name="com.orangehrm.tesetcases.TC005AdditionAndDelete" />
-	<!--		<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    
-			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />-->
+			<class name="com.orangehrm.tesetcases.TC004AdditionAndDelete" />
+	<!---->	<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    
+			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />
+			
+		</classes>
+	</test>
+	<test name="edgeTest">
+		<parameter name="browser" value="edge" />
+		<classes>
+			
+			<class name="com.orangehrm.tesetcases.TC004AdditionAndDelete" />
+	<!---->	<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    
+			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />
+			
+		</classes>
+	</test>
+	<test name="firefoxTest"> 
+		<parameter name="browser" value="firefox" />
+		<classes>
+			
+			<class name="com.orangehrm.tesetcases.TC004AdditionAndDelete" />
+	<!---->	<class name="com.orangehrm.tesetcases.TC001InvalidLoginTest" />    
+			<class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest" />
 			
 		</classes>
 	</test>

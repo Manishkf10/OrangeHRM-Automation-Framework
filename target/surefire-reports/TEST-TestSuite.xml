@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="15.216" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="238.07" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\manish work space\eclipse setup\orangehrm_automation\target\test-classes;D:\manish work space\eclipse setup\orangehrm_automation\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\hp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\5.5.1\poi-scratchpad-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\hp\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\hp\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
+    <property name="java.class.path" value="D:\manish work space\eclipse setup\orangehrm_automation\target\test-classes;D:\manish work space\eclipse setup\orangehrm_automation\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\hp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.1\log4j-slf4j2-impl-2.23.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\5.5.1\poi-scratchpad-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\hp\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\hp\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire12073485291743581280\surefirebooter-20260519160538755_3.jar C:\Users\hp\AppData\Local\Temp\surefire12073485291743581280 2026-05-19T16-05-38_453-jvmRun1 surefire-20260519160538755_1tmp surefire_0-20260519160538755_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire17844190899012756401\surefirebooter-20260520162033665_3.jar C:\Users\hp\AppData\Local\Temp\surefire17844190899012756401 2026-05-20T16-20-33_470-jvmRun1 surefire-20260520162033665_1tmp surefire_0-20260520162033665_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\manish work space\eclipse setup\orangehrm_automation\target\test-classes;D:\manish work space\eclipse setup\orangehrm_automation\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\hp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\5.5.1\poi-scratchpad-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\hp\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\hp\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\manish work space\eclipse setup\orangehrm_automation\target\test-classes;D:\manish work space\eclipse setup\orangehrm_automation\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\hp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.1\log4j-slf4j2-impl-2.23.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\5.5.1\poi-scratchpad-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\hp\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\hp\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hp"/>
     <property name="user.language" value="en"/>
@@ -26,11 +26,12 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="D:\manish work space\eclipse setup\orangehrm_automation"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire12073485291743581280\surefirebooter-20260519160538755_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire17844190899012756401\surefirebooter-20260520162033665_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -50,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\hp\bin;D:\manish work space\Git\mingw64\bin;D:\manish work space\Git\usr\local\bin;D:\manish work space\Git\usr\bin;D:\manish work space\Git\usr\bin;D:\manish work space\Git\mingw64\bin;D:\manish work space\Git\usr\bin;C:\Users\hp\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\manish work space\maven OS lavel\apache-maven-3.9.9\bin;D:\manish work space\Git\cmd;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules;C:\Users\hp\AppData\Local\Android\Sdk\build-tools;C:\Users\hp\AppData\Local\Android\Sdk\platforms;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;D:\manish work space\Git\usr\bin\vendor_perl;D:\manish work space\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\manish work space\maven OS lavel\apache-maven-3.9.9\bin;D:\manish work space\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Users\hp\AppData\Local\Android\Sdk\build-tools;C:\Users\hp\AppData\Local\Android\Sdk\platforms;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,12 +59,788 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="4.454">
+  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="0.846">
+    <system-out><![CDATA[16:20:36 [main] INFO  com.orangehrm.base.BaseTest - config.properties loaded
+16:20:37 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:37 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:37 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:37 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:37 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:37 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:37 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:43 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:20:43 [TestNG-test=chromeTest-2] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:20:43 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:20:43 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:43 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:43 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:43 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:43 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:43 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:45 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:45 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:45 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:20:45 [TestNG-test=chromeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:20:45 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:48 [TestNG-test=chromeTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:20:50 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:20:50 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:20:50 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+16:20:50 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:20:50 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:20:50 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:20:50 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:20:51 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+16:20:51 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:20:51 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:20:51 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:20:51 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:51 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:51 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:20:51 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:51 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:51 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:20:52 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:20:52 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:20:52 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:52 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 19, 2026 4:05:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2026 4:20:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 20, 2026 4:20:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 20, 2026 4:20:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
 ]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="2.349">
+    <system-out><![CDATA[16:21:41 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:41 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:41 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:41 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:41 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:42 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:42 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:42 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:42 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:42 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:42 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:42 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:45 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:45 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:45 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:45 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:45 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:45 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:45 [TestNG-test=edgeTest-2] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:45 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:45 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:48 [TestNG-test=edgeTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:50 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:21:50 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:50 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:50 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:50 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:51 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:21:51 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:51 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+16:21:51 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:51 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+16:21:51 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:52 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:52 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:52 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:21:52 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:52 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:52 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:52 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:21:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 20, 2026 4:21:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 20, 2026 4:21:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="4.4">
+    <system-out><![CDATA[16:23:27 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:27 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:27 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:23:27 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:23:27 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:23:27 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:27 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:27 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:27 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:27 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:31 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:31 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:31 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:33 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:33 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:33 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:35 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:35 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:35 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:36 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:36 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:36 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:23:36 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:36 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:38 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:23:38 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:23:38 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:23:38 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:23:38 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:41 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:23:42 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:23:42 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:42 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:42 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:23:42 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:23:42 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:43 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:23:43 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+16:23:43 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:23:43 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+16:23:44 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:44 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:23:45 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.linkText: Add Employee
+16:23:45 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:23:46 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:23:46 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:23:46 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.572">
+    <system-out><![CDATA[16:20:56 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:56 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:20:56 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:57 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:20:57 [TestNG-test=chromeTest-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:20:57 [TestNG-test=chromeTest-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:20:58 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:58 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:58 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:20:58 [TestNG-test=chromeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:20:58 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:20:59 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:20:59 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:00 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.linkText: Add Employee
+16:21:02 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
+16:21:02 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:02 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:02 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="6.983">
+    <system-out><![CDATA[16:22:03 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
+16:22:03 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:22:03 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:22:03 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:03 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.088">
+    <system-out><![CDATA[16:23:56 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:56 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:58 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:23:58 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+16:23:59 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:23:59 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+16:23:59 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:59 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:23:59 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:23:59 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:24:00 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:24:01 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:24:01 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:24:01 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.362">
+    <system-out><![CDATA[16:21:07 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:07 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:08 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:08 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:08 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:08 [TestNG-test=chromeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:21:08 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:08 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:09 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:09 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:09 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:09 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:11 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:11 [TestNG-test=chromeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:21:11 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:21:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="5.484">
+    <system-out><![CDATA[16:22:07 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:22:08 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:22:09 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:09 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:09 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:22:09 [TestNG-test=edgeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:22:09 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:09 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:22:09 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:09 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:11 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:22:11 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+16:22:11 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:22:11 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+16:22:11 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:22:13 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:13 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:13 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:22:13 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:13 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:16 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:22:16 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:22:16 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:22:16 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:22:16 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:22:16 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:22:19 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:22:19 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:22:19 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:22:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.301">
+    <system-out><![CDATA[16:24:10 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:10 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:10 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:24:10 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:24:10 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:11 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:12 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:24:12 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+16:24:12 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:24:12 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+16:24:12 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:24:12 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:24:13 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:24:13 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:24:13 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:24:13 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="4.218">
+    <system-out><![CDATA[16:20:52 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:20:52 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:20:52 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
+16:20:52 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
+16:20:52 [TestNG-test=chromeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:53 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:53 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
+16:20:53 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:20:53 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
+16:20:53 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:20:53 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:20:53 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
+16:20:54 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:20:54 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:54 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:20:55 [TestNG-test=chromeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:20:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="6.413">
+    <system-out><![CDATA[16:21:53 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:21:53 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:53 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:53 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:21:54 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:54 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:55 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:55 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:55 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:21:55 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:56 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:56 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:56 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:56 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:56 [TestNG-test=edgeTest-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:21:56 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
+16:21:57 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
+16:21:59 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:22:00 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:22:00 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+16:22:00 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.linkText: Add Employee
+16:22:00 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:22:00 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+16:22:00 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:22:01 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
+16:22:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder="First Name"]
+16:22:02 [TestNG-test=edgeTest-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:22:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
+16:22:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Middle Name']
+16:22:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
+16:22:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Last Name']
+16:22:03 [TestNG-test=edgeTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:21:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="7.806">
+    <system-out><![CDATA[16:23:52 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:23:52 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:52 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:52 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class="oxd-topbar-header-title"]/span
+16:23:52 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
+16:23:52 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:53 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //li[@class="oxd-userdropdown"]/span
+16:23:53 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
+16:23:53 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:53 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:53 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:53 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@role="menu"]/li[4]
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:54 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:56 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
+]]></system-out>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="8.141">
+    <system-out><![CDATA[16:21:02 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder="First Name"]
+16:21:02 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:02 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
+16:21:03 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Middle Name']
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:03 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
+16:21:03 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Last Name']
+16:21:03 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:03 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:04 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:04 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:04 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:04 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:21:04 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:21:04 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:04 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:04 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:05 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:06 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:21:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="10.78">
+    <system-out><![CDATA[16:22:03 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:22:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:22:04 [TestNG-test=edgeTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:22:04 [TestNG-test=edgeTest-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:22:04 [TestNG-test=edgeTest-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:22:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:22:04 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:22:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:22:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:22:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:22:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:22:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:22:06 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:22:06 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:22:06 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:06 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:06 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:22:06 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:22:07 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:22:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="3.649">
+    <system-out><![CDATA[16:23:47 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:47 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:47 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:48 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder="First Name"]
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Middle Name']
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //input[@placeholder='Last Name']
+16:23:48 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:23:49 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:49 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:23:49 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:23:49 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:23:50 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:23:50 [TestNG-test=firefoxTest-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:50 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:23:51 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="12.541">
+    <system-out><![CDATA[16:21:11 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:12 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:12 [TestNG-test=chromeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:12 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:12 [TestNG-test=chromeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:12 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:12 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:12 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:12 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:12 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:13 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:13 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:21:13 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:13 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:21:13 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:14 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:18 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:21:21 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:21:22 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:22 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:22 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:21:22 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:21:24 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:24 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:24 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:24 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:24 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="49.857">
+    <system-out><![CDATA[16:22:19 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:20 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:22:20 [TestNG-test=edgeTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:22:20 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:22:20 [TestNG-test=edgeTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:22:26 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:22:28 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:22:37 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:22:38 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:22:38 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:22:38 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:22:38 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:23:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:02 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:03 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:03 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:03 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="7.325">
+    <system-out><![CDATA[16:24:01 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:02 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:24:03 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
+16:24:04 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:24:05 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:24:05 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:24:07 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:24:07 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:07 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:07 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:24:07 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:24:07 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:24:08 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:24:08 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:10 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="9.947">
+    <system-out><![CDATA[16:21:25 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:25 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:21:26 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:21:27 [TestNG-test=chromeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:21:27 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:27 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:30 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:30 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:30 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:21:30 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:30 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:21:31 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:21:33 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:21:35 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:21:35 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:35 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:21:35 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:21:35 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:21:38 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:21:40 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+16:21:40 [TestNG-test=chromeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:21:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="16.134">
+    <system-out><![CDATA[16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
+16:23:04 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:23:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:23:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:05 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:10 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:10 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:10 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:23:10 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:10 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:23:12 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:23:17 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:23:20 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:23:21 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:23:21 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:23:21 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:23:21 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:23:23 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:23 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:24 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:24 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:23:24 [TestNG-test=edgeTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:23:24 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:23:24 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:23:26 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+16:23:26 [TestNG-test=edgeTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+]]></system-out>
+    <system-err><![CDATA[May 20, 2026 4:23:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="10.345">
+    <system-out><![CDATA[16:24:14 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:14 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:15 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.base.BaseTest - selected url is :https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+16:24:15 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:15 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:16 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:24:16 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:24:16 [TestNG-test=firefoxTest-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:24:19 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:19 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:19 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:24:19 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:19 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:21 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: username
+16:24:21 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:24:21 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.name: password
+16:24:21 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:24:21 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type='submit']
+16:24:22 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:24:23 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:24:24 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
+16:24:25 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:24:25 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 104261 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
+16:24:25 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //button[@type="submit"]
+16:24:25 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - '104261' is matched to '104261' at location :By.xpath: //div[@role='table']/div[2]/div/div/div[2]/div
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:24:27 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='table']/div[2]/div/div/div[9]//button[2]
+16:24:30 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+16:24:30 [TestNG-test=firefoxTest-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
+]]></system-out>
   </testcase>
 </testsuite>

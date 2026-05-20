@@ -35,10 +35,15 @@ public class MyListener implements ITestListener,IAnnotationTransformer{
 	@Override
 	public void onTestStart(ITestResult result) {
 		
-		
+		String browser;
+		try {
+			browser=result.getTestContext().getCurrentXmlTest().getParameter("browser");
+		}catch(Exception e) {
+			browser="";
+		}
 		String testName=result.getMethod().getMethodName();
 		if (MyExtentReport.getTest() == null) {
-	        MyExtentReport.startTest(testName);
+	        MyExtentReport.startTest(testName+" ("+browser+")");
 	        MyExtentReport.logStep("Test Started : "+testName);
 	    }
 		

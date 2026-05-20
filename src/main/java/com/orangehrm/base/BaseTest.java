@@ -8,6 +8,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 import java.util.concurrent.locks.LockSupport;
 
 import org.apache.logging.log4j.Logger;
@@ -65,7 +66,7 @@ public class BaseTest {
 	@Parameters({"browser"})
 	public synchronized void setup(@Optional("chrome")String browser) {
 	
-		DriverFactory.initDriver();	
+		DriverFactory.initDriver(browser);	
 		setBrowserProperties();
 		initializeActionDriver();
 	}
@@ -87,10 +88,19 @@ public class BaseTest {
 		
 		String url= EnvironmentManager.getApplicationURL();
 		log.info("selected url is :"+url);
-		getDriver().get(url);
+		 try {
+		        getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+		        getDriver().get(url);
+
+		    } catch(Exception e) {
+
+		        log.warn("Page load timeout occurred. Refreshing page..."+e);
+		        getDriver().navigate().refresh();
+		    }
+
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ppt.getProperty("implicitWait"))));
 	}
-	
+
 	public static void staticWait(int num){
 	
 		LockSupport.parkNanos(TimeUnit.MILLISECONDS.toNanos(num));

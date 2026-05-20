@@ -12,7 +12,7 @@ import com.orangehrm.utilities.MyDataProvider;
 import com.orangehrm.utilities.MyExcelReader;
 import com.orangehrm.utilities.MyExtentReport;
 @Listeners(com.orangehrm.listeners.MyListener.class)
-public class TC005AdditionAndDelete extends BaseTest{
+public class TC004AdditionAndDelete extends BaseTest{
 
 	private LoginPage lp;
 	private PIMpage pim;

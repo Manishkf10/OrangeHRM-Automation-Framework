@@ -33,6 +33,7 @@ public class PIMpage {
 	private By password=By.xpath("//label[text()='Password']/parent::div/following-sibling::div/input");
 	private By confirmPassword=By.xpath("//label[text()='Confirm Password']/parent::div/following-sibling::div/input");
 	private By submit=By.xpath("//button[@type='submit']");
+	private By resultTable=By.xpath("//div[@role='table']");
 	private By resultEmpId=By.xpath("//div[@role='table']/div[2]/div/div/div[2]/div");
 	private By deleteEmpButtton=By.xpath("//div[@role='table']/div[2]/div/div/div[9]//button[2]");
 	private By confirmDelete=By.xpath("//div[@class='orangehrm-modal-footer']/button[2]");
@@ -70,6 +71,7 @@ public class PIMpage {
 		act.enterText(EmpFName, fname);
 		act.enterText(EmpMName, mName);
 		act.enterText(EmpLName, lname);
+		BaseTest.staticWait(1000);
 		act.clickOn(createLoginDetails);
 		act.enterText(EmpId, empId);;
 		act.enterText(userName, username);	
@@ -77,21 +79,25 @@ public class PIMpage {
 		act.enterText(confirmPassword, conPass);
 		
 		act.clickOn(submit);
-		BaseTest.staticWait(3000);
+		BaseTest.staticWait(1000);
 		
 		
 	}
 	public void searchById(String id) {
 		act.enterText(employeeSearchById, id);
 		act.clickOn(searchButton);
+		BaseTest.staticWait(2000);
+		act.waitForEleVisibility(resultTable);
 		act.scrollPage(resultEmpId);
 	}
 	
 	public boolean verifyEmployeeId(String id){
+		act.waitForEleVisibility(resultTable);
 		return act.compareText(resultEmpId, id);
 	}
 	
 	public void deleteEmp() {
+		act.waitForEleVisibility(resultTable);
 		act.clickOn(deleteEmpButtton);
 		BaseTest.staticWait(2000);
 		act.clickOn(confirmDelete);

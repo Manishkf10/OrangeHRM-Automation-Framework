@@ -4,4 +4,4 @@ com\orangehrm\tesetcases\DB_EmployeeVerification.class
 com\orangehrm\tesetcases\TC001InvalidLoginTest.class
 com\orangehrm\tesetcases\Demo.class
 com\orangehrm\tesetcases\TC003validLoginRemoteTest.class
-com\orangehrm\tesetcases\TC005AdditionAndDelete.class
+com\orangehrm\tesetcases\TC004AdditionAndDelete.class
