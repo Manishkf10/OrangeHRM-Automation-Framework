@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>edgeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 20 15:20:04 IST 2026</td>
+<td>Started on:</td><td>Wed May 20 16:50:36 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>75 seconds (75995 ms)</td>
+<tr><td>Total time:</td><td>54 seconds (54971 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,105 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.setup()'><b>setup</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete<br>Parameters: edge</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.987
-  (Session info: MicrosoftEdge=148.0.3967.70)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ac85faf251ebda60d584dcf3f8f65652, refresh {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.70, fedcm:accounts: true, goog:processID: 10172, ms:edgeOptions: {debuggerAddress: localhost:55050}, msedge: {msedgedriverVersion: 148.0.3967.70 (8956564be045..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55050/devtoo..., se:cdpVersion: 148.0.3967.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac85faf251ebda60d584dcf3f8f65652
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1236)
-	at com.orangehrm.base.BaseTest.setBrowserProperties(BaseTest.java:98)
-	at com.orangehrm.base.BaseTest.setup(BaseTest.java:70)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1324545877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1324545877'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.987
-  (Session info: MicrosoftEdge=148.0.3967.70)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ac85faf251ebda60d584dcf3f8f65652, refresh {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.70, fedcm:accounts: true, goog:processID: 10172, ms:edgeOptions: {debuggerAddress: localhost:55050}, msedge: {msedgedriverVersion: 148.0.3967.70 (8956564be045..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55050/devtoo..., se:cdpVersion: 148.0.3967.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac85faf251ebda60d584dcf3f8f65652
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1236)
-	at com.orangehrm.base.BaseTest.setBrowserProperties(BaseTest.java:98)
-	at com.orangehrm.base.BaseTest.setup(BaseTest.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>41</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.pageSetup()'><b>pageSetup</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete</td>
-<td></td>
-<td>0</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete</td>
-<td></td>
-<td>0</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -175,115 +76,40 @@ Session ID: ac85faf251ebda60d584dcf3f8f65652
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee()'><b>addNewEmployee</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete<br>Parameters: Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg</td>
-<td></td>
-<td>11</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC001InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC001InvalidLoginTest<br>Parameters: abcd, efgh</td>
-<td></td>
-<td>3</td>
-<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@6aecbb8d</td></tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC001InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC001InvalidLoginTest<br>Parameters: hello, heloo</td>
-<td></td>
-<td>2</td>
-<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@6aecbb8d</td></tr>
-<tr>
 <td title='com.orangehrm.tesetcases.TC003validLoginRemoteTest.validLoginTest()'><b>validLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC003validLoginRemoteTest<br>Parameters: Admin, admin123</td>
 <td></td>
-<td>14</td>
-<td>com.orangehrm.tesetcases.TC003validLoginRemoteTest@1af146</td></tr>
-<tr>
-<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee()'><b>searchEmployee</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete</td>
-<td></td>
 <td>7</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
+<td>com.orangehrm.tesetcases.TC003validLoginRemoteTest@aeab9a1</td></tr>
 <tr>
 <td title='com.orangehrm.tesetcases.TC001InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC001InvalidLoginTest<br>Parameters: nil, nil</td>
 <td></td>
 <td>3</td>
-<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@6aecbb8d</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@5b1f29fa</td></tr>
 <tr>
 <td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee()'><b>deleteEmployee</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.987
-  (Session info: MicrosoftEdge=148.0.3967.70)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ac85faf251ebda60d584dcf3f8f65652, refresh {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.70, fedcm:accounts: true, goog:processID: 10172, ms:edgeOptions: {debuggerAddress: localhost:55050}, msedge: {msedgedriverVersion: 148.0.3967.70 (8956564be045..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55050/devtoo..., se:cdpVersion: 148.0.3967.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac85faf251ebda60d584dcf3f8f65652
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1236)
-	at com.orangehrm.base.BaseTest.setBrowserProperties(BaseTest.java:98)
-	at com.orangehrm.base.BaseTest.setup(BaseTest.java:70)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace112286638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace112286638'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.987
-  (Session info: MicrosoftEdge=148.0.3967.70)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ac85faf251ebda60d584dcf3f8f65652, refresh {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.70, fedcm:accounts: true, goog:processID: 10172, ms:edgeOptions: {debuggerAddress: localhost:55050}, msedge: {msedgedriverVersion: 148.0.3967.70 (8956564be045..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55050/devtoo..., se:cdpVersion: 148.0.3967.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ac85faf251ebda60d584dcf3f8f65652
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1236)
-	at com.orangehrm.base.BaseTest.setBrowserProperties(BaseTest.java:98)
-	at com.orangehrm.base.BaseTest.setup(BaseTest.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@1cbf6e72</td></tr>
+<td></td>
+<td>10</td>
+<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@625abb97</td></tr>
+<tr>
+<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee()'><b>searchEmployee</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete</td>
+<td></td>
+<td>9</td>
+<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@625abb97</td></tr>
+<tr>
+<td title='com.orangehrm.tesetcases.TC001InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC001InvalidLoginTest<br>Parameters: hello, heloo</td>
+<td></td>
+<td>10</td>
+<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@5b1f29fa</td></tr>
+<tr>
+<td title='com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee()'><b>addNewEmployee</b><br>Test class: com.orangehrm.tesetcases.TC004AdditionAndDelete<br>Parameters: Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg</td>
+<td></td>
+<td>17</td>
+<td>com.orangehrm.tesetcases.TC004AdditionAndDelete@625abb97</td></tr>
+<tr>
+<td title='com.orangehrm.tesetcases.TC001InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.orangehrm.tesetcases.TC001InvalidLoginTest<br>Parameters: abcd, efgh</td>
+<td></td>
+<td>5</td>
+<td>com.orangehrm.tesetcases.TC001InvalidLoginTest@5b1f29fa</td></tr>
 </table><p>
 </body>
 </html>

@@ -18,7 +18,7 @@
 
     <Loggers>
 
-        <Root level="info">
+        <Root level="error">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="FileLogger"/>
         </Root>
