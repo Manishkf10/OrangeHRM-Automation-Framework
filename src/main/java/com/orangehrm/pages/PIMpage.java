@@ -34,7 +34,7 @@ public class PIMpage {
 	private By confirmPassword=By.xpath("//label[text()='Confirm Password']/parent::div/following-sibling::div/input");
 	private By submit=By.xpath("//button[@type='submit']");
 	private By resultTable=By.xpath("//div[@role='table']");
-	private By resultEmpId=By.xpath("//div[text()='Id']/parent::div/following::div[2]//div[@role='cell'][2]");
+	private By resultEmpId=By.xpath("//div[text()='Id']/parent::div/following::div[2]//div[@role='cell'][2]/div");
 	private By deleteEmpButtton=By.xpath("//div[text()='Id']/parent::div/following::div[2]//div[@role='cell'][9]//button[2]");
 	private By confirmDelete=By.xpath("//div[@class='orangehrm-modal-footer']/button[2]");
 			
