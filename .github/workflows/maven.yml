@@ -12,6 +12,12 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+
+      matrix:
+        browser: [chrome, firefox, edge]
+
     permissions:
       contents: read
       checks: write
@@ -29,24 +35,43 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
+    # Chrome
     - name: Setup Chrome
+      if: matrix.browser == 'chrome'
       uses: browser-actions/setup-chrome@v1
 
-    - name: Verify Chrome
-      run: google-chrome --version
+    # Firefox
+    - name: Setup Firefox
+      if: matrix.browser == 'firefox'
+      uses: browser-actions/setup-firefox@v1
+
+    # Edge
+    - name: Setup Edge
+      if: matrix.browser == 'edge'
+      uses: browser-actions/setup-edge@v1
+
+    - name: Verify Browser
+      run: |
+        if [ "${{ matrix.browser }}" = "chrome" ]; then
+          google-chrome --version
+        elif [ "${{ matrix.browser }}" = "firefox" ]; then
+          firefox --version
+        else
+          microsoft-edge --version
+        fi
 
     - name: Build Project
       run: mvn clean install -DskipTests
 
     - name: Execute Selenium Tests
-      run: mvn test
+      run: mvn test -Dbrowser=${{ matrix.browser }}
 
     # Upload Logs
     - name: Upload Logs
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: Logs
+        name: Logs-${{ matrix.browser }}
         path: logs/
 
     # Upload Extent Reports
@@ -54,24 +79,22 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: ExtentReports
+        name: ExtentReports-${{ matrix.browser }}
         path: extentReports/
 
-    # Upload TestNG test-output
+    # Upload TestNG Reports
     - name: Upload TestNG Reports
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: TestNG-Output
+        name: TestNG-Output-${{ matrix.browser }}
         path: test-output/
 
- 
-
-    # Publish Test Results in GitHub UI
+    # Publish Test Results
     - name: Publish Test Report
       if: always()
       uses: dorny/test-reporter@v1
       with:
-        name: Selenium TestNG Results
+        name: Selenium TestNG Results - ${{ matrix.browser }}
         path: target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
