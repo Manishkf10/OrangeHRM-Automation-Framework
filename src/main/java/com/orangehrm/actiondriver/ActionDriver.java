@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeoutException;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -76,15 +77,15 @@ public class ActionDriver {
 	
 //for click
 	public void clickOn(By by) {
-		try {
-			WebElement ele=waitForEleClickable(by);
-			
-			applyColorBorder(by, "green");
+		WebElement ele=waitForEleClickable(by);
+		
+		try {					
+			applyColorBorder(ele, "green");
 			ele.click();
 			log.info("click on : "+by.toString());
 			MyExtentReport.logStep("click on : "+by.toString());
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to click on : "+by.toString()+e.getMessage());
 			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
 		}
@@ -92,16 +93,18 @@ public class ActionDriver {
 
 //for enter text
 	public void enterText(By by, String value) {
+		WebElement ele=waitForEleClickable(by);
+		
 		try {
-			waitForEleClickable(by);
-			WebElement ele=applyColorBorder(by, "green");
+			
+			applyColorBorder(ele, "green");
 			ele.sendKeys(Keys.CONTROL + "a");
 			ele.sendKeys(Keys.DELETE);
 			ele.sendKeys(value);
 			logBothinfo("enter text : "+value+" in : "+by.toString());
 			MyExtentReport.logStep("click on : "+by.toString());
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to enter text in : "+by.toString()+e.getMessage());
 			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
 		}
@@ -110,15 +113,17 @@ public class ActionDriver {
 	//get text
 	public String getEleText(By by) {
 		
+		WebElement ele=waitForEleVisibility(by);
+		
 		try {
-			waitForEleClickable(by);
-			WebElement ele=applyColorBorder(by, "green");
+			
+			applyColorBorder(ele, "green");
 			String value=ele.getText();
 			logBothinfo("get text : "+value+" in : "+by.toString());
 			MyExtentReport.logStep("click on : "+by.toString());
 			return ele.getText();
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to enter text in : "+by.toString()+e.getMessage());
 			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to click on : "+by.toString()+e.getMessage(), by.toString()+" is unable for click");
 			return null;
@@ -128,8 +133,10 @@ public class ActionDriver {
 	
 //for compare text
 	public boolean compareText(By by, String expected) {
+		
+		WebElement ele=waitForEleVisibility(by);
 		try {
-			WebElement ele=waitForEleVisibility(by);
+			
 			wait.until(ExpectedConditions.textToBePresentInElement(ele, expected));
 			String actual = ele.getText().trim();
 			String expect = expected.trim();
@@ -138,13 +145,13 @@ public class ActionDriver {
 		
 			if (actual.equals(expected.trim())) {
 				
-				applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				log.info("'" + expected + "' is matched to '" + actual + "' at location :" + by.toString());
 				MyExtentReport.attachSceenshot(DriverFactory.getDriver(),"'" + expected + "' is matched to '" + actual + "' at location :" + by.toString());  
 							
 				return true;
 			} else {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				
 				log.info(expected + " is not matched to " + actual + " at location :" + by.toString());
 				
@@ -156,7 +163,7 @@ public class ActionDriver {
 			}
 		} catch (Exception e) {
 
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to compare text : " + expected + e.getMessage());
 			MyExtentReport.logFailure(DriverFactory.getDriver(), "unable to compare text : " + expected + e.getMessage(),
 					"unable to compare text");
@@ -167,22 +174,24 @@ public class ActionDriver {
 
 	//check visibility
 	public boolean isVisible(By by) {
+		
+		WebElement ele=waitForEleVisibility(by);
 		try {
-			WebElement ele=waitForEleVisibility(by);
+			
 			boolean result=ele.isDisplayed();
 			if(result) {
-				applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				log.info("element located by : "+by.toString()+" is visible");
 				MyExtentReport.logStepWithScreenshot(DriverFactory.getDriver(), "element located by : "+by.toString()+" is visible", "element is visible");
 				return true;
 			}else {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				log.info("element located by : "+by+" is not visible");
 				MyExtentReport.logFailure(DriverFactory.getDriver(),"element located by : "+by.toString()+" is not visible",by.toString()+" is not displayed");
 				return false;
 			}
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			
 			log.error("unable to check visibility of :"+by.toString()+e.getMessage());
 			MyExtentReport.logFailure(DriverFactory.getDriver(),"unable to check visibility of :"+by.toString()+e.getMessage(),by.toString()+" is not displayed");
 			return false;
@@ -190,33 +199,36 @@ public class ActionDriver {
 	}	
 	
 	// to color element border
-	public WebElement applyColorBorder(By by, String color) {
-		WebElement ele;
+	public WebElement applyColorBorder(WebElement ele, String color) {
+		
 		try {
-			ele= waitForEleVisibility(by);
+			
 			String script="arguments[0].style.border='3px solid "+color+"'";
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			js.executeScript(script,ele);
-			logBothinfo("Color applied "+color+" to element "+by.toString());
+			logBothinfo("Color applied "+color+" to element "+ele.toString());
 			return ele;
 			
 		} catch (Exception e) {
-			log.error("unable to color applied "+color+" to element "+by.toString()+e.getMessage());
+			log.error("unable to color applied "+color+" to element "+ele.toString()+e.getMessage());
 			return null;
 		}
 	}
 	
 	//to scroll page till a element
 	public void scrollPage(By by) {
+		
+		WebElement ele=waitForEleVisibility(by);
+		
 		try {
-			waitForEleVisibility(by);
-			WebElement ele=applyColorBorder(by, "green");
+			
+			applyColorBorder(ele, "green");
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 			js.executeScript("arguments[0].scrollIntoView({block:'center'});", ele);
 			log.info("scroll page to the element " +by.toString());
 			MyExtentReport.logStep("scroll page to the element " +by.toString());
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to scroll page!!! "+e);
 			
 		}
@@ -224,13 +236,15 @@ public class ActionDriver {
 	
 	//select dropDown by visible text
 	public void dropDownSelectByVisibleText(By by,String value) {
-		try {
-			WebElement ele=waitForEleVisibility(by);
+		
+		WebElement ele=waitForEleVisibility(by);
+		
+		try {			
 			new Select(ele).selectByVisibleText(value);
-			applyColorBorder(by, "green");
+			applyColorBorder(ele, "green");
 			logBothinfo("Select dropDown with text : "+value);
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to select dropdown by text : "+value+e);
 		}
 		
@@ -239,13 +253,16 @@ public class ActionDriver {
 //	===================== DropDown Handling	=============================
 	//select dropDown by value
 	public void dropDownSelectByValue(By by,String value) {
+		
+		WebElement ele=waitForEleVisibility(by);
+		
 		try {
-			WebElement ele=waitForEleVisibility(by);
+			
 			new Select(ele).selectByValue(value);
-			applyColorBorder(by, "green");
+			applyColorBorder(ele, "green");
 			logBothinfo("Select dropDown with value : "+value);
 		} catch (Exception e) {
-			applyColorBorder(by, "red");
+			applyColorBorder(ele, "red");
 			log.error("unable to select dropdown value : "+value+"\n"+e);
 		}
 		
@@ -253,13 +270,15 @@ public class ActionDriver {
 	} 
 	//select dropDown by index
 		public void dropDownSelectByIndex(By by,int value) {
-			try {
-				WebElement ele=waitForEleVisibility(by);
+			
+			WebElement ele=waitForEleVisibility(by);
+			
+			try {				
 				new Select(ele).selectByIndex(value);
-				applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				logBothinfo("Select dropDown with index : "+value);
 			} catch (Exception e) {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				log.error("unable to select dropdown index : "+value+e);
 			}
 			
@@ -269,11 +288,10 @@ public class ActionDriver {
 		public List<String> getDropdownOptions(By by) {
 			
 			List<String> options=new ArrayList<>();
+			WebElement ele=waitForEleVisibility(by);
 			
-			try {
-				WebElement ele=waitForEleVisibility(by);
-				
-				applyColorBorder(by, "green");
+			try {	
+				applyColorBorder(ele, "green");
 				Select select=new Select(ele);
 				
 				for(WebElement opt:select.getOptions()) {
@@ -281,7 +299,7 @@ public class ActionDriver {
 				}
 				logBothinfo("Retrieved options from dropdown form  : "+by.toString());
 			} catch (Exception e) {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				log.error("Unable to retrieved options from dropdown form  : "+by.toString()+"!!!"+e);
 			}
 			return options;
@@ -290,20 +308,21 @@ public class ActionDriver {
 //		===================== JavaScript utilities	=============================
 		// click using javaScript
 		public void clickUsingJS(By by) {
-		
+			
+			WebElement ele =waitForEleVisibility(by);
+					
 			try {
-				WebElement ele =waitForEleVisibility(by);
 				((JavascriptExecutor)driver).executeScript("arguments[0].click();", ele);
-				applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				logBothinfo("click element using javaScript "+by.toString());
 			} catch (Exception e) {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				log.error("unable to click element using javaScript "+by.toString()+e);
 			}
 		}
 		
 		//scroll to bottom
-		public void scrollToBottom(By by) {
+		public void scrollToBottom() {
 			
 			try {
 				((JavascriptExecutor)driver).executeScript("\"window.scrollTo(0, document.body.scrollHeight);");
@@ -332,8 +351,10 @@ public class ActionDriver {
 //		===================== Frame Handling	=============================
 		//to switch into i-frame
 		public void switchToFrame(By by) {
+			
+			WebElement ele= waitForEleVisibility(by);
+			
 			try {
-				WebElement ele= waitForEleVisibility(by);
 				driver.switchTo().frame(ele);
 				logBothinfo("switch to frame located by : "+by.toString());
 			} catch (Exception e) {
@@ -383,15 +404,28 @@ public class ActionDriver {
 		}
 
 //		===================== Browser Handling	=============================
+		public boolean waitForPageLoad() throws TimeoutException {
+
+		    return new WebDriverWait(driver,
+			        Duration.ofSeconds(Integer.parseInt(BaseTest.getPpt("implicitWait"))))
+			        .until(d ->
+			                ((JavascriptExecutor) d)
+			                        .executeScript("return document.readyState")
+			                        .equals("complete"));
+		}
 		
+	
 		//to refresh page
 		public void refreshPage() {
-			try {
-				driver.navigate().refresh();
-				logBothinfo("Page refresh successfully");
-			} catch (Exception e) {
-				log.error("unable to refresh page"+"\n"+e);
-			}
+
+		    try {
+
+		        driver.navigate().refresh();
+		        waitForPageLoad(); 
+		        logBothinfo("Page refreshed successfully");
+		    } catch (Exception e) {
+		        log.error("Unable to refresh page: " + e.getMessage());
+		    }
 		}
 		
 		//get current url
@@ -421,22 +455,29 @@ public class ActionDriver {
 //		===================== Advance Action Handling	=============================	
 		//move mouse to element
 		public void moveOntoElement(By by) {
+			
+			WebElement ele=waitForEleVisibility(by);
 			try {
 				Actions action=new Actions(driver);
-				WebElement ele=applyColorBorder(by, "green");		
+				applyColorBorder(ele, "green");		
 				action.moveToElement(ele).perform();
 				logBothinfo("move to element located by : "+by.toString());
 			} catch (Exception e) {
+				applyColorBorder(ele, "red");
 				log.error("Unable to move on element located by : "+by.toString());
 			}
 		}
 		
 		//to drag and drop a element
 		public void dragDrop(By source, By target) {
+			
+			WebElement sEle= waitForEleVisibility(source);
+			WebElement tEle= waitForEleVisibility(target);
+			
 			try {
 				Actions action=new Actions(driver);
-				WebElement sEle= applyColorBorder(source, "green");
-				WebElement tEle= applyColorBorder(target, "green");
+				applyColorBorder(sEle, "green");
+				applyColorBorder(tEle, "green");
 				action.dragAndDrop(sEle, tEle).perform();
 				logBothinfo(source.toString()+" is draged and drop in location "+"'"+target.toString()+"'");
 			} catch (Exception e) {
@@ -446,49 +487,63 @@ public class ActionDriver {
 		
 		//to double click
 		public void doubleClicked(By by) {
+			
+			WebElement ele=waitForEleClickable(by);
 			try {
 				Actions action=new Actions(driver);
-				WebElement ele=applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				action.doubleClick(ele).perform();
 				logBothinfo("double clicked on locator : "+by.toString());
 			} catch (Exception e) {
+				applyColorBorder(ele, "red");
 				log.error("Unable to double clicked using Actions!!!"+e);
 			}
 		}
 		//to right click
 		public void rightClicked(By by) {
+			
+			WebElement ele=waitForEleClickable(by);
+			
 			try {
 				Actions action=new Actions(driver);
-				WebElement ele= applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				action.contextClick(ele).perform();
 				logBothinfo("right clicked on locator : "+by.toString());
 			} catch (Exception e) {
+				applyColorBorder(ele, "red");
 				log.error("Unable to right clicked using Actions!!!"+e);
 			}
 		}
 		
 		//to sendskey with Actions class
 		public void enterTextWithActionClass(By by, String value) {
+			
+			WebElement ele=waitForEleClickable(by);
+			
 			try {
 				Actions action=new Actions(driver);
-				WebElement ele=applyColorBorder(by, "green");
+				applyColorBorder(ele, "green");
 				action.sendKeys(ele, value).perform();
 				
 				logBothinfo("Enter text '"+value+"' in locator : "+by.toString());
 			} catch (Exception e) {
+				applyColorBorder(ele, "red");
 				log.error("unable to eneter text using Action(Selenium) class!!!"+e);
 			}
 					
 		}
 		//to upload file
 		public void uploadFile(By by, String filePath) {
+			
+			WebElement ele=waitForEleClickable(by);
+			
 			try {
-				WebElement ele=applyColorBorder(by, "green");
-				ele.sendKeys(filePath);
-				
+				applyColorBorder(ele, "green");
+				ele.sendKeys(filePath);				
 				logBothinfo("file uploaded");
+				
 			} catch (Exception e) {
-				applyColorBorder(by, "red");
+				applyColorBorder(ele, "red");
 				log.error("Unable to upload file!!!"+e);
 			}
 		}

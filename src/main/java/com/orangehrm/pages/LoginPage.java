@@ -25,6 +25,9 @@ public class LoginPage {
 	
 //Action
 	public void login(String uname, String pword) {
+		if(!act.isVisible(userName)) {
+			act.refreshPage();
+		}
 		act.enterText(userName, uname);
 		act.enterText(password, pword);
 		act.clickOn(loginButton);

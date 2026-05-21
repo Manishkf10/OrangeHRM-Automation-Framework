@@ -90,36 +90,11 @@ public class BaseTest {
 	protected void setBrowserProperties() {
 		
 		String url = EnvironmentManager.getApplicationURL();
-
 		log.info("Selected URL is: " + url);
-
-		try {
-
-		    getDriver().manage().timeouts()
-		            .pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))));
-
-		    getDriver().get(url);
-
-		    new WebDriverWait(getDriver(), Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))))
-		            .until(webDriver ->
-		                    ((JavascriptExecutor) webDriver)
-		                            .executeScript("return document.readyState")
-		                            .equals("complete"));
-
-		}
-		catch (WebDriverException  e) {
-
-		    log.warn("Page load timeout occurred: " + e.getMessage());
-
-		    ((JavascriptExecutor) getDriver())
-		            .executeScript("window.stop();");
-
-		    getDriver().navigate().refresh();
-		}
-
-		getDriver().manage().timeouts()
-		        .implicitlyWait(Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))));
-	}
+		getDriver().get(url);
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ppt.getProperty("implicitWait"))));
+}
+	
 
 	public static void staticWait(int num){
 	
