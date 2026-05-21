@@ -38,21 +38,24 @@ public class ActionDriver {
 	
 	
 // wait for element visibility
-	public void waitForEleVisibility(By by) {
+	public WebElement waitForEleVisibility(By by) {
+		
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+			return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		} catch (Exception e) {
 			log.error("unable to located element :"+by.toString()+e.getMessage());
+			 throw e;
 		}
 	}
 	
 //wait for element clickable
-	public void waitForEleClickable(By by) {
+	public WebElement waitForEleClickable(By by) {
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(by));
+			return wait.until(ExpectedConditions.elementToBeClickable(by));
 			
 		} catch (Exception e) {
 			log.error("unable to click on : "+by.toString()+e.getMessage());
+			throw e;
 		}
 	}
 	
@@ -74,8 +77,8 @@ public class ActionDriver {
 //for click
 	public void clickOn(By by) {
 		try {
-			waitForEleClickable(by);
-			WebElement ele= driver.findElement(by);
+			WebElement ele=waitForEleClickable(by);
+			
 			applyColorBorder(by, "green");
 			ele.click();
 			log.info("click on : "+by.toString());
@@ -109,8 +112,7 @@ public class ActionDriver {
 		
 		try {
 			waitForEleClickable(by);
-			applyColorBorder(by, "green");
-			WebElement ele= driver.findElement(by);
+			WebElement ele=applyColorBorder(by, "green");
 			String value=ele.getText();
 			logBothinfo("get text : "+value+" in : "+by.toString());
 			MyExtentReport.logStep("click on : "+by.toString());
@@ -127,8 +129,8 @@ public class ActionDriver {
 //for compare text
 	public boolean compareText(By by, String expected) {
 		try {
-			wait.until(ExpectedConditions.textToBe(by, expected));
-			WebElement ele = driver.findElement(by);
+			WebElement ele=waitForEleVisibility(by);
+			wait.until(ExpectedConditions.textToBePresentInElement(ele, expected));
 			String actual = ele.getText().trim();
 			String expect = expected.trim();
 			
@@ -166,8 +168,7 @@ public class ActionDriver {
 	//check visibility
 	public boolean isVisible(By by) {
 		try {
-			waitForEleVisibility(by);
-			WebElement ele=driver.findElement(by);
+			WebElement ele=waitForEleVisibility(by);
 			boolean result=ele.isDisplayed();
 			if(result) {
 				applyColorBorder(by, "green");
@@ -192,7 +193,7 @@ public class ActionDriver {
 	public WebElement applyColorBorder(By by, String color) {
 		WebElement ele;
 		try {
-			ele= driver.findElement(by);
+			ele= waitForEleVisibility(by);
 			String script="arguments[0].style.border='3px solid "+color+"'";
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			js.executeScript(script,ele);
@@ -209,8 +210,7 @@ public class ActionDriver {
 	public void scrollPage(By by) {
 		try {
 			waitForEleVisibility(by);
-			applyColorBorder(by, "green");
-			WebElement ele= driver.findElement(by);
+			WebElement ele=applyColorBorder(by, "green");
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 			js.executeScript("arguments[0].scrollIntoView({block:'center'});", ele);
 			log.info("scroll page to the element " +by.toString());
@@ -225,8 +225,7 @@ public class ActionDriver {
 	//select dropDown by visible text
 	public void dropDownSelectByVisibleText(By by,String value) {
 		try {
-			waitForEleVisibility(by);
-			WebElement ele= driver.findElement(by);
+			WebElement ele=waitForEleVisibility(by);
 			new Select(ele).selectByVisibleText(value);
 			applyColorBorder(by, "green");
 			logBothinfo("Select dropDown with text : "+value);
@@ -241,8 +240,7 @@ public class ActionDriver {
 	//select dropDown by value
 	public void dropDownSelectByValue(By by,String value) {
 		try {
-			waitForEleVisibility(by);
-			WebElement ele= driver.findElement(by);
+			WebElement ele=waitForEleVisibility(by);
 			new Select(ele).selectByValue(value);
 			applyColorBorder(by, "green");
 			logBothinfo("Select dropDown with value : "+value);
@@ -256,8 +254,7 @@ public class ActionDriver {
 	//select dropDown by index
 		public void dropDownSelectByIndex(By by,int value) {
 			try {
-				waitForEleVisibility(by);
-				WebElement ele= driver.findElement(by);
+				WebElement ele=waitForEleVisibility(by);
 				new Select(ele).selectByIndex(value);
 				applyColorBorder(by, "green");
 				logBothinfo("Select dropDown with index : "+value);
@@ -274,8 +271,8 @@ public class ActionDriver {
 			List<String> options=new ArrayList<>();
 			
 			try {
-				waitForEleVisibility(by);
-				WebElement ele=driver.findElement(by);
+				WebElement ele=waitForEleVisibility(by);
+				
 				applyColorBorder(by, "green");
 				Select select=new Select(ele);
 				
@@ -295,7 +292,7 @@ public class ActionDriver {
 		public void clickUsingJS(By by) {
 		
 			try {
-				WebElement ele =driver.findElement(by);
+				WebElement ele =waitForEleVisibility(by);
 				((JavascriptExecutor)driver).executeScript("arguments[0].click();", ele);
 				applyColorBorder(by, "green");
 				logBothinfo("click element using javaScript "+by.toString());
@@ -336,7 +333,8 @@ public class ActionDriver {
 		//to switch into i-frame
 		public void switchToFrame(By by) {
 			try {
-				driver.switchTo().frame(driver.findElement(by));
+				WebElement ele= waitForEleVisibility(by);
+				driver.switchTo().frame(ele);
 				logBothinfo("switch to frame located by : "+by.toString());
 			} catch (Exception e) {
 				log.error("Unable to switch to frame located by : "+by.toString()+e);
@@ -425,8 +423,7 @@ public class ActionDriver {
 		public void moveOntoElement(By by) {
 			try {
 				Actions action=new Actions(driver);
-				WebElement ele=driver.findElement(by);
-				applyColorBorder(by, "green");
+				WebElement ele=applyColorBorder(by, "green");		
 				action.moveToElement(ele).perform();
 				logBothinfo("move to element located by : "+by.toString());
 			} catch (Exception e) {
@@ -438,9 +435,9 @@ public class ActionDriver {
 		public void dragDrop(By source, By target) {
 			try {
 				Actions action=new Actions(driver);
-				applyColorBorder(source, "green");
-				applyColorBorder(target, "green");
-				action.dragAndDrop(driver.findElement(source), driver.findElement(target)).perform();
+				WebElement sEle= applyColorBorder(source, "green");
+				WebElement tEle= applyColorBorder(target, "green");
+				action.dragAndDrop(sEle, tEle).perform();
 				logBothinfo(source.toString()+" is draged and drop in location "+"'"+target.toString()+"'");
 			} catch (Exception e) {
 				log.error("Unable to drag and drop element !!!"+e);
@@ -451,8 +448,8 @@ public class ActionDriver {
 		public void doubleClicked(By by) {
 			try {
 				Actions action=new Actions(driver);
-				applyColorBorder(by, "green");
-				action.doubleClick(driver.findElement(by)).perform();
+				WebElement ele=applyColorBorder(by, "green");
+				action.doubleClick(ele).perform();
 				logBothinfo("double clicked on locator : "+by.toString());
 			} catch (Exception e) {
 				log.error("Unable to double clicked using Actions!!!"+e);
@@ -462,8 +459,8 @@ public class ActionDriver {
 		public void rightClicked(By by) {
 			try {
 				Actions action=new Actions(driver);
-				applyColorBorder(by, "green");
-				action.contextClick(driver.findElement(by)).perform();
+				WebElement ele= applyColorBorder(by, "green");
+				action.contextClick(ele).perform();
 				logBothinfo("right clicked on locator : "+by.toString());
 			} catch (Exception e) {
 				log.error("Unable to right clicked using Actions!!!"+e);
@@ -474,8 +471,9 @@ public class ActionDriver {
 		public void enterTextWithActionClass(By by, String value) {
 			try {
 				Actions action=new Actions(driver);
-				action.sendKeys(driver.findElement(by), value).perform();
-				applyColorBorder(by, "green");
+				WebElement ele=applyColorBorder(by, "green");
+				action.sendKeys(ele, value).perform();
+				
 				logBothinfo("Enter text '"+value+"' in locator : "+by.toString());
 			} catch (Exception e) {
 				log.error("unable to eneter text using Action(Selenium) class!!!"+e);
@@ -485,8 +483,9 @@ public class ActionDriver {
 		//to upload file
 		public void uploadFile(By by, String filePath) {
 			try {
-				driver.findElement(by).sendKeys(filePath);
-				applyColorBorder(by, "green");
+				WebElement ele=applyColorBorder(by, "green");
+				ele.sendKeys(filePath);
+				
 				logBothinfo("file uploaded");
 			} catch (Exception e) {
 				applyColorBorder(by, "red");

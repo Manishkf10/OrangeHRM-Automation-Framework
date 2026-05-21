@@ -12,7 +12,9 @@ import java.util.concurrent.TimeoutException;
 import java.util.concurrent.locks.LockSupport;
 
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -20,6 +22,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -86,19 +89,36 @@ public class BaseTest {
 	
 	protected void setBrowserProperties() {
 		
-		String url= EnvironmentManager.getApplicationURL();
-		log.info("selected url is :"+url);
-		 try {
-		        getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
-		        getDriver().get(url);
+		String url = EnvironmentManager.getApplicationURL();
 
-		    } catch(Exception e) {
+		log.info("Selected URL is: " + url);
 
-		        log.warn("Page load timeout occurred. Refreshing page..."+e);
-		        getDriver().navigate().refresh();
-		    }
+		try {
 
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ppt.getProperty("implicitWait"))));
+		    getDriver().manage().timeouts()
+		            .pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))));
+
+		    getDriver().get(url);
+
+		    new WebDriverWait(getDriver(), Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))))
+		            .until(webDriver ->
+		                    ((JavascriptExecutor) webDriver)
+		                            .executeScript("return document.readyState")
+		                            .equals("complete"));
+
+		}
+		catch (WebDriverException  e) {
+
+		    log.warn("Page load timeout occurred: " + e.getMessage());
+
+		    ((JavascriptExecutor) getDriver())
+		            .executeScript("window.stop();");
+
+		    getDriver().navigate().refresh();
+		}
+
+		getDriver().manage().timeouts()
+		        .implicitlyWait(Duration.ofSeconds(Integer.parseInt(getPpt("implicitWait"))));
 	}
 
 	public static void staticWait(int num){

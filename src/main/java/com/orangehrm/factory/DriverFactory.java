@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -45,7 +46,7 @@ public class DriverFactory {
 		log.info("Test execution runiing on "+browser);
 		if(testExecutionMode.equals("local")) {
 			driver.set(createLocalDriver(browser));
-			//getDriver().manage().window().maximize();
+			getDriver().manage().window().setSize(new Dimension(1920, 1080));
 		}else
 			driver.set(createRemoteDriver(browser));
 		
@@ -64,6 +65,7 @@ public class DriverFactory {
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--window-size=1920,1080");
+			options.addArguments("--remote-allow-origins=*");
 
 			return new ChromeDriver(options);
 
@@ -89,6 +91,7 @@ public class DriverFactory {
 			e_options.addArguments("--no-sandbox");
 			e_options.addArguments("--disable-dev-shm-usage");
 			e_options.addArguments("--window-size=1920,1080");
+			e_options.addArguments("--remote-allow-origins=*");
 			return new EdgeDriver(e_options);
 		default:
 			throw new RuntimeException("Invalid browser");

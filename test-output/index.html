@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods,   21 passed</span>
+                    <span class="method-stats">25 methods, 2 failed,  4 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -128,11 +176,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(nil, nil)">invalidLoginTest(nil, nil)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -148,17 +191,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(nil, nil)">invalidLoginTest(nil, nil)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(hello, heloo)">invalidLoginTest(hello, heloo)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(abcd, efgh)">invalidLoginTest(abcd, efgh)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,7 +201,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(hello, heloo)">invalidLoginTest(hello, heloo)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(abcd, efgh)">invalidLoginTest(abcd, efgh)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -178,7 +211,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC004AdditionAndDelete" class="method navigator-link" hash-for-method="searchEmployee">searchEmployee</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(hello, heloo)">invalidLoginTest(hello, heloo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.tesetcases.TC001InvalidLoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(nil, nil)">invalidLoginTest(nil, nil)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -218,6 +256,118 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchEmployee">
+                  </a> <!-- searchEmployee -->
+                  <span class="method-name">searchEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchEmployee">
+                  </a> <!-- searchEmployee -->
+                  <span class="method-name">searchEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchEmployee">
+                  </a> <!-- searchEmployee -->
+                  <span class="method-name">searchEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: employee id not matched expected [true] but found [false]
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -264,13 +414,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteEmployee">
-                  </a> <!-- deleteEmployee -->
-                  <span class="method-name">deleteEmployee</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="searchEmployee">
                   </a> <!-- searchEmployee -->
                   <span class="method-name">searchEmployee</span>
@@ -281,45 +424,6 @@
                   <a name="searchEmployee">
                   </a> <!-- searchEmployee -->
                   <span class="method-name">searchEmployee</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchEmployee">
-                  </a> <!-- searchEmployee -->
-                  <span class="method-name">searchEmployee</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLoginTest(Admin, admin123)">
-                  </a> <!-- validLoginTest(Admin, admin123) -->
-                  <span class="method-name">validLoginTest</span>
-                  <span class="parameters">(Admin,admin123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLoginTest(Admin, admin123)">
-                  </a> <!-- validLoginTest(Admin, admin123) -->
-                  <span class="method-name">validLoginTest</span>
-                  <span class="parameters">(Admin,admin123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLoginTest(Admin, admin123)">
-                  </a> <!-- validLoginTest(Admin, admin123) -->
-                  <span class="method-name">validLoginTest</span>
-                  <span class="parameters">(Admin,admin123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -356,26 +460,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidLoginTest(nil, nil)">
-                  </a> <!-- invalidLoginTest(nil, nil) -->
-                  <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(nil,nil)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="invalidLoginTest(hello, heloo)">
                   </a> <!-- invalidLoginTest(hello, heloo) -->
                   <span class="method-name">invalidLoginTest</span>
                   <span class="parameters">(hello,heloo)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidLoginTest(abcd, efgh)">
-                  </a> <!-- invalidLoginTest(abcd, efgh) -->
-                  <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(abcd,efgh)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -388,10 +476,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidLoginTest(hello, heloo)">
-                  </a> <!-- invalidLoginTest(hello, heloo) -->
+                  <a name="invalidLoginTest(abcd, efgh)">
+                  </a> <!-- invalidLoginTest(abcd, efgh) -->
                   <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(hello,heloo)</span>
+                  <span class="parameters">(abcd,efgh)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -400,6 +488,54 @@
                   </a> <!-- invalidLoginTest(abcd, efgh) -->
                   <span class="method-name">invalidLoginTest</span>
                   <span class="parameters">(abcd,efgh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest(hello, heloo)">
+                  </a> <!-- invalidLoginTest(hello, heloo) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(hello,heloo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest(nil, nil)">
+                  </a> <!-- invalidLoginTest(nil, nil) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(nil,nil)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(Admin, admin123)">
+                  </a> <!-- validLoginTest(Admin, admin123) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(Admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(Admin, admin123)">
+                  </a> <!-- validLoginTest(Admin, admin123) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(Admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(Admin, admin123)">
+                  </a> <!-- validLoginTest(Admin, admin123) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(Admin,admin123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -413,11 +549,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.orangehrm.listeners.MyListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;chromeTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;chromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.tesetcases.TC004AdditionAndDelete&quot;/&gt;
@@ -425,7 +561,7 @@
       &lt;class name=&quot;com.orangehrm.tesetcases.TC003validLoginRemoteTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chromeTest --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;edgeTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;edgeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.tesetcases.TC004AdditionAndDelete&quot;/&gt;
@@ -433,7 +569,7 @@
       &lt;class name=&quot;com.orangehrm.tesetcases.TC003validLoginRemoteTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- edgeTest --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;firefoxTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;firefoxTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.tesetcases.TC004AdditionAndDelete&quot;/&gt;
@@ -484,96 +620,112 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(21);
+data.addRows(25);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewEmployee')
 data.setCell(0, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(0, 3, 17306);
+data.setCell(0, 3, 235751);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addNewEmployee')
+data.setCell(1, 1, 'searchEmployee')
 data.setCell(1, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(1, 3, 16099);
+data.setCell(1, 3, 136710);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchEmployee')
+data.setCell(2, 1, 'deleteEmployee')
 data.setCell(2, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(2, 3, 15272);
+data.setCell(2, 3, 107618);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addNewEmployee')
+data.setCell(3, 1, 'deleteEmployee')
 data.setCell(3, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(3, 3, 10826);
+data.setCell(3, 3, 93163);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'deleteEmployee')
 data.setCell(4, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(4, 3, 10719);
+data.setCell(4, 3, 82894);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'invalidLoginTest')
-data.setCell(5, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(5, 3, 10546);
+data.setCell(5, 1, 'searchEmployee')
+data.setCell(5, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
+data.setCell(5, 3, 80355);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'deleteEmployee')
+data.setCell(6, 1, 'searchEmployee')
 data.setCell(6, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(6, 3, 9825);
+data.setCell(6, 3, 75864);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validLoginTest')
-data.setCell(7, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
-data.setCell(7, 3, 9474);
+data.setCell(7, 1, 'deleteEmployee')
+data.setCell(7, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
+data.setCell(7, 3, 68684);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'deleteEmployee')
 data.setCell(8, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(8, 3, 9408);
+data.setCell(8, 3, 14122);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'searchEmployee')
 data.setCell(9, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(9, 3, 9202);
+data.setCell(9, 3, 13880);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validLoginTest')
-data.setCell(10, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
-data.setCell(10, 3, 7961);
+data.setCell(10, 1, 'searchEmployee')
+data.setCell(10, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
+data.setCell(10, 3, 11952);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'validLoginTest')
-data.setCell(11, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
-data.setCell(11, 3, 7639);
+data.setCell(11, 1, 'addNewEmployee')
+data.setCell(11, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
+data.setCell(11, 3, 11143);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'searchEmployee')
+data.setCell(12, 1, 'addNewEmployee')
 data.setCell(12, 2, 'com.orangehrm.tesetcases.TC004AdditionAndDelete')
-data.setCell(12, 3, 7547);
+data.setCell(12, 3, 10867);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'invalidLoginTest')
 data.setCell(13, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(13, 3, 5744);
+data.setCell(13, 3, 10311);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'invalidLoginTest')
-data.setCell(14, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(14, 3, 5715);
+data.setCell(14, 1, 'validLoginTest')
+data.setCell(14, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
+data.setCell(14, 3, 7589);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'invalidLoginTest')
-data.setCell(15, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(15, 3, 4008);
+data.setCell(15, 1, 'validLoginTest')
+data.setCell(15, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
+data.setCell(15, 3, 5998);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'invalidLoginTest')
-data.setCell(16, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(16, 3, 3606);
+data.setCell(16, 1, 'validLoginTest')
+data.setCell(16, 2, 'com.orangehrm.tesetcases.TC003validLoginRemoteTest')
+data.setCell(16, 3, 4601);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'invalidLoginTest')
 data.setCell(17, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(17, 3, 3565);
+data.setCell(17, 3, 3965);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'invalidLoginTest')
 data.setCell(18, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(18, 3, 3563);
+data.setCell(18, 3, 3774);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'invalidLoginTest')
 data.setCell(19, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(19, 3, 3226);
+data.setCell(19, 3, 3204);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'invalidLoginTest')
 data.setCell(20, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
-data.setCell(20, 3, 2855);
+data.setCell(20, 3, 3139);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'invalidLoginTest')
+data.setCell(21, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
+data.setCell(21, 3, 2844);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invalidLoginTest')
+data.setCell(22, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
+data.setCell(22, 3, 2504);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'invalidLoginTest')
+data.setCell(23, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
+data.setCell(23, 3, 2364);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'invalidLoginTest')
+data.setCell(24, 2, 'com.orangehrm.tesetcases.TC001InvalidLoginTest')
+data.setCell(24, 3, 2178);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 16 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -592,7 +744,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</span>
+              <span class="ignored-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">readConfig</span>
                 <br/>
@@ -603,7 +755,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</span>
+              <span class="ignored-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">readConfig</span>
                 <br/>
@@ -628,456 +780,467 @@ return data;
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">1983 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">1985 ms</span>
+                <span class="method-start">1209 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">1997 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">7088 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validLoginTest(Admin, admin123)</span>
-                <span class="method-start">7094 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">10705 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
-                <span class="method-start">10708 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(nil, nil)</span>
-                <span class="method-start">10955 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">10955 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14863 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">15908 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">17452 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">20810 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(hello, heloo)</span>
-                <span class="method-start">20811 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">22171 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">22539 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24312 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">24695 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">26840 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchEmployee</span>
-                <span class="method-start">26841 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(abcd, efgh)</span>
-                <span class="method-start">29956 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">29956 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">34142 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">35022 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">35503 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">40033 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">deleteEmployee</span>
-                <span class="method-start">40034 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">50120 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(edge)</span>
-                <span class="method-start">51589 ms</span>
+                <span class="method-start">1209 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">51600 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">51615 ms</span>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">1209 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">55148 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
-                <span class="method-start">55149 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">59252 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validLoginTest(Admin, admin123)</span>
-                <span class="method-start">59253 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">60490 ms</span>
+                <span class="method-start">8292 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(nil, nil)</span>
-                <span class="method-start">60490 ms</span>
+                <span class="method-start">8300 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64796 ms</span>
+                <span class="method-start">11761 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">65775 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">67982 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(hello, heloo)</span>
-                <span class="method-start">68821 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">68821 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">73133 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">73621 ms</span>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">12190 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">78779 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchEmployee</span>
-                <span class="method-start">78780 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">80037 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">80452 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">88682 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest(abcd, efgh)</span>
-                <span class="method-start">88704 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">88704 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge)</span>
-                <span class="method-start">89139 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">deleteEmployee</span>
-                <span class="method-start">94490 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">94490 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">95094 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">105888 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">106555 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">106557 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">106567 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">118249 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
-                <span class="method-start">118250 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">122735 ms</span>
+                <span class="method-start">16198 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(nil, nil)</span>
-                <span class="method-start">122736 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">127358 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">129416 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validLoginTest(Admin, admin123)</span>
-                <span class="method-start">129995 ms</span>
+                <span class="method-start">16200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">129995 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">134976 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">137610 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">138248 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pageSetup</span>
-                <span class="method-start">138644 ms</span>
+                <span class="method-start">16842 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(hello, heloo)</span>
-                <span class="method-start">138644 ms</span>
+                <span class="method-start">16845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">18358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(nil, nil)</span>
+                <span class="method-start">18361 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">142828 ms</span>
+                <span class="method-start">19305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">19691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">20738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">24547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(hello, heloo)</span>
+                <span class="method-start">24549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">27767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">27833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(abcd, efgh)</span>
+                <span class="method-start">27837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">145836 ms</span>
+                <span class="method-start">30527 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31639 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">32200 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">32266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(abcd, efgh)</span>
+                <span class="method-start">32267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">37063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest(hello, heloo)</span>
+                <span class="method-start">37065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">37309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">39254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest(Admin, admin123)</span>
+                <span class="method-start">39258 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41436 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">42927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest(Admin, admin123)</span>
+                <span class="method-start">42928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">43295 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44477 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">44991 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49581 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">49980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">152032 ms</span>
+                <span class="method-start">50158 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchEmployee</span>
-                <span class="method-start">152033 ms</span>
+                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
+                <span class="method-start">50162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">54627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
+                <span class="method-start">54629 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">155848 ms</span>
+                <span class="method-start">61129 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(abcd, efgh)</span>
-                <span class="method-start">155849 ms</span>
+                <span class="method-start">61130 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">162164 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">167898 ms</span>
+                <span class="method-start">61678 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">62659 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC001InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64943 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">169284 ms</span>
+                <span class="method-start">66327 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">66585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchEmployee</span>
+                <span class="method-start">66586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">67292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">72743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchEmployee</span>
+                <span class="method-start">72745 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">73565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest(Admin, admin123)</span>
+                <span class="method-start">73569 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">79558 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC003validLoginRemoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81792 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.tesetcases.TC004AdditionAndDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">83295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">84962 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteEmployee</span>
-                <span class="method-start">175606 ms</span>
+                <span class="method-start">84964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">87983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">90903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployee(Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\...)</span>
+                <span class="method-start">90909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">pageSetup</span>
-                <span class="method-start">175606 ms</span>
+                <span class="method-start">94252 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">94253 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">186057 ms</span>
+                <span class="method-start">99741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">327254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">328067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">336706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchEmployee</span>
+                <span class="method-start">336707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">417064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">418194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">426015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchEmployee</span>
+                <span class="method-start">426017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">501886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">503241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">511342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchEmployee</span>
+                <span class="method-start">511343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">648134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">648964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">656336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">656337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">739234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">740538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">748691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">748694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">841858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">843149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">853658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">853658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">961362 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
