@@ -29,7 +29,7 @@ public class HomePage {
 		act.clickOn(userIcon);
 		act.clickOn(logoutButton);
 	}
-	public static boolean isLoginPageLoaded() {
+	public boolean isLoginPageLoaded() {
 	    return act.isVisible(logoutButton);
 	}
 	
