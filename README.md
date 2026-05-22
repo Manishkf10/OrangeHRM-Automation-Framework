@@ -84,18 +84,74 @@ This framework provides a robust suite of automated tests to ensure reliability,
 
 ```
 OrangeHRM-Automation-Framework/
-├── src/
-│   ├── test/
-│   │   ├── java/                 # Test classes and utilities
-│   │   └── resources/            # Test configuration and data
-│   └── main/                     # Page objects and core framework
-├── extentReports/                # Generated HTML test reports
-├── logs/                         # Test execution logs
-├── test-output/                  # TestNG output directory
-├── pom.xml                       # Maven configuration
-├── .classpath                    # Eclipse classpath
-├── .project                      # Eclipse project configuration
-└── README.md                     # This file
+│
+├── src/main/java/com/orangehrm/              # Core Framework Code
+│   │
+│   ├── base/                              	# Base classes and setup
+│   │   └──  BaseClass.java                 # Base test class with setup/teardown
+│   │               		                    # Browser initialization
+│   │
+│   ├── pages/                             	# Page Object Models (POM)
+│   │   ├── LoginPage.java                	# Login page POM
+│   │   ├── HomePage.java                  	# Home page POM
+│   │   ├── PIMpage.java                   	# PIM module page
+│   │   └── [Other Page Objects]
+│   │
+│   ├── actiondriver/                 		# Action Driver Layer
+│   │  	└── ActionsClass.java             # Common web actions
+│   │  			                	            # Wait utilities
+│   │   
+│   │
+│   ├── listeners/                        # TestNG Listeners
+│   │   └── ListenersClass.java           # Execution listeners
+│   │              				                # Custom listeners
+│   │
+│   ├── factory/                          # Factory Pattern
+│   │   └──  DriverFactory.java         	# WebDriver factory
+│   │                			                # Configuration factory
+│   │
+│   └── utilities/                        	# Utilities & Helpers
+│       ├── ExcelReader.java             	# Excel utilities (Apache POI)
+│       ├── PropertiesReader.java        	# Config handler
+│       ├── DatabaseUtility.java          # MySQL helpers
+│       ├── APIHelper.java                # REST Assured helpers
+│       ├── ScreenshotUtility.java        # Screenshot capture
+│       └── [Other Utilities]
+│
+├── src/test/java/com/orangehrm/
+│   └── tesetcases/                           # Test Classes (note: typo exists)
+│       ├── TC001InvalidLoginTest.java
+│       ├── TC002validLoginLocalTest.java
+│       ├── TC003validLoginRemoteTest.java
+│       ├── TC004AdditionAndDelete.java
+│       ├── DB_EmployeeVerification.java
+│       ├── APItest.java
+│       └── [Other Test Cases]
+│
+├── src/test/resources/
+│   ├── config.properties                    # Configuration file
+│   ├── testng.xml                           # TestNG suite
+│   ├── remoteApplicationTests.xml           # Remote execution suite
+│   │
+│   ├── data/
+│   │   ├── testdata.xlsx                   # Test data (Excel)
+│   │   └── [Other Data Files]
+│   │
+│   └── log4j2.xml                           # Logging configuration
+│
+├── extentReports/
+│   ├── index.html                           # HTML report
+│   └── screenshots/                         # Failure screenshots
+│
+├── logs/
+│   └── test.log                             # Execution logs
+│
+├── test-output/                             # TestNG output reports
+│
+├── pom.xml                                  # Maven dependencies
+├── .classpath                               # Eclipse config
+├── .project                                 # Eclipse project file
+└── README.md
 ```
 
 ---
