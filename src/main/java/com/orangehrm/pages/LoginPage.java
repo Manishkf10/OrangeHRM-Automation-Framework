@@ -31,6 +31,7 @@ public class LoginPage {
 		act.enterText(userName, uname);
 		act.enterText(password, pword);
 		act.clickOn(loginButton);
+		BaseTest.staticWait(2000);
 	}
 	public boolean validatingErrorMessage(String expected) {
 		return act.compareText(errorMessage, expected);

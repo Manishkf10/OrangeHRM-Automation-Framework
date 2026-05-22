@@ -67,8 +67,15 @@ public class BaseTest {
 
 	@BeforeMethod
 	@Parameters({"browser"})
-	public synchronized void setup(@Optional("chrome")String browser) {
+	public synchronized void setup(@Optional String browser) {
 	
+		if (browser == null || browser.isEmpty()) {
+	        browser = System.getProperty("browser");
+	    }
+
+	    if (browser == null || browser.isEmpty()) {
+	        browser = "chrome";
+	    }
 		DriverFactory.initDriver(browser);	
 		setBrowserProperties();
 		initializeActionDriver();
