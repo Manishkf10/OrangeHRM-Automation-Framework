@@ -88,11 +88,13 @@ public class PIMpage {
 		act.clickOn(searchButton);
 		BaseTest.staticWait(2000);
 		act.waitForEleVisibility(resultTable);
+		BaseTest.staticWait(2000);
 		act.scrollPage(resultEmpId);
 	}
 	
 	public boolean verifyEmployeeId(String id){
 		act.waitForEleVisibility(resultTable);
+		BaseTest.staticWait(2000);
 		return act.compareText(resultEmpId, id);
 	}
 	
