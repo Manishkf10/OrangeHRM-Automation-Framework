@@ -3,21 +3,17 @@ package com.orangehrm.tesetcases;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
 import com.orangehrm.base.BaseTest;
 @Listeners(com.orangehrm.listeners.MyListener.class)
 public class Demo extends BaseTest{
 	
 	 @Test(priority=1)
 	 void t1() {
-		 System.out.println("t1");
+		 Faker faker =new Faker();
+		 String i=faker.number().digits(5);
+		 System.out.println(i);
 	 }
-	 @Test(priority=2)
-	 void t2() {
-		 System.out.println("t2");
-	 }
-	 @Test(priority=3)
-	 void t3() {
-		 System.out.println("t3");
-	 }
+	
 
 }
