@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="198.873" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="1000.901" tests="15" errors="0" skipped="8" failures="4">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire5812783973517455758\surefirebooter-20260522150447802_3.jar C:\Users\hp\AppData\Local\Temp\surefire5812783973517455758 2026-05-22T15-04-47_510-jvmRun1 surefire-20260522150447802_1tmp surefire_0-20260522150447802_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire17930146978037796700\surefirebooter-20260522163414185_3.jar C:\Users\hp\AppData\Local\Temp\surefire17930146978037796700 2026-05-22T16-34-13_973-jvmRun1 surefire-20260522163414185_1tmp surefire_0-20260522163414185_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\manish work space\eclipse setup\orangehrm_automation\target\test-classes;D:\manish work space\eclipse setup\orangehrm_automation\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\hp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\hp\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\hp\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\hp\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.1\log4j-slf4j2-impl-2.23.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\5.5.1\poi-scratchpad-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\hp\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\hp\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\hp\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hp\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hp\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire5812783973517455758\surefirebooter-20260522150447802_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire17930146978037796700\surefirebooter-20260522163414185_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -59,74 +59,690 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.923">
+  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="5.307">
+    <system-out><![CDATA[16:34:16 [main] INFO  com.orangehrm.base.BaseTest - config.properties loaded
+16:34:17 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:17 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:17 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:17 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:17 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:23 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:23 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:34:23 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:23 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:23 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:34:23 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:24 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:24 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:34:24 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:51 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:34:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:34:52 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:52 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:34:52 [TestNG-test=Test-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:34:52 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:53 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: username]
+16:34:53 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:34:53 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:53 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: username]
+16:34:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: username]
+16:34:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:34:53 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:53 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:34:53 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:53 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: username]
+16:34:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: username]
+16:34:54 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: username]
+16:34:54 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:34:54 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:34:54 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: password]
+16:34:54 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+16:34:54 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: password]
+16:34:54 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: password]
+16:34:54 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:34:54 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> xpath: //button[@type='submit']]
+16:34:54 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:34:54 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+16:34:54 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> xpath: //button[@type='submit']]
+16:34:54 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> xpath: //button[@type='submit']]
+16:34:55 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:34:57 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:34:57 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:34:57 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+16:34:57 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:34:57 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 22, 2026 3:04:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 22, 2026 4:34:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-May 22, 2026 3:04:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 22, 2026 4:34:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-May 22, 2026 3:04:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.355">
-    <system-err><![CDATA[May 22, 2026 3:05:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-May 22, 2026 3:05:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-May 22, 2026 3:05:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 22, 2026 4:34:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest[nil, nil](1)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="6.44"/>
-  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.508"/>
-  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="5.151">
-    <system-err><![CDATA[May 22, 2026 3:06:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.395">
+    <system-out><![CDATA[16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:34:58 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:35:00 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:00 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:35:00 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:01 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:01 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:01 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:35:01 [TestNG-test=Test-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:35:01 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: username]
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: username]
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: password]
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> xpath: //button[@type='submit']]
+16:35:02 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:35:04 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+16:35:04 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:35:04 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:35:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest[hello, heloo](2)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="2.781"/>
-  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="4.348">
-    <system-err><![CDATA[May 22, 2026 3:05:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-May 22, 2026 3:05:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.053">
-    <system-err><![CDATA[May 22, 2026 3:06:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.035"/>
-  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="4.193"/>
-  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="6.509"/>
-  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="3.661"/>
-  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="9.997">
-    <system-err><![CDATA[May 22, 2026 3:05:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="14.587">
-    <system-err><![CDATA[May 22, 2026 3:06:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.505"/>
-  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="9.069"/>
-  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="3.957"/>
-  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="2.604"/>
-  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="10.15">
-    <system-err><![CDATA[May 22, 2026 3:05:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
-]]></system-err>
-  </testcase>
-  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="13.595">
-    <system-err><![CDATA[May 22, 2026 3:06:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="invalidLoginTest[abcd, efgh](3)" classname="com.orangehrm.tesetcases.TC001InvalidLoginTest" time="3.168">
+    <system-out><![CDATA[16:35:05 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:05 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:35:06 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:35:07 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:07 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:35:07 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: username]
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:08 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: username]
+16:35:09 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+16:35:09 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: password]
+16:35:09 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+16:35:09 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> xpath: //button[@type='submit']]
+16:35:09 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:35:11 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+16:35:11 [TestNG-test=Test-1] INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+16:35:11 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:35:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
 ]]></system-err>
   </testcase>
-  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="12.78"/>
+  <testcase name="validLoginTest[Admin, admin123](1)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class=&quot;oxd-topbar-header-title&quot;]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;oxd-topbar-header-title&quot;]/span&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64916}, goog:processID: 4236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64916/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4d55303657ac9900730ec8b1d0c9a69e"/>
+    <system-out><![CDATA[16:35:11 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:12 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:35:12 [TestNG-test=Test-1] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:35:12 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:35:12 [TestNG-test=Test-1] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:36:40 [TestNG-test=Test-2] ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64916}, goog:processID: 4236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64916/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d55303657ac9900730ec8b1d0c9a69e
+]]></system-out>
+  </testcase>
+  <testcase name="validLoginTest[Admin, admin123](2)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class=&quot;oxd-topbar-header-title&quot;]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;oxd-topbar-header-title&quot;]/span&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 12008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1905f7952a1c72d641cc0f3a87602c38"/>
+    <system-out><![CDATA[16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:36:40 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:36:40 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:36:42 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:42 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:36:42 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:42 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:42 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:36:42 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:43 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:43 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:43 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:36:43 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:43 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:36:44 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: username]
+16:36:44 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:36:44 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: username]
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:36:44 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:36:44 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: username]
+16:36:45 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: username]
+16:36:45 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:36:45 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:36:45 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: password]
+16:36:45 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: password]
+16:36:45 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:36:45 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> xpath: //button[@type='submit']]
+16:36:45 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:36:45 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> xpath: //button[@type='submit']]
+16:36:46 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:36:47 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:38:29 [TestNG-test=Test-2] ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 12008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1905f7952a1c72d641cc0f3a87602c38
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:36:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 22, 2026 4:36:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="validLoginTest[Admin, admin123](3)" classname="com.orangehrm.tesetcases.TC003validLoginRemoteTest" time="104.947">
+    <failure message="Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class=&quot;oxd-topbar-header-title&quot;]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;oxd-topbar-header-title&quot;]/span&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8664f676c42d52e6576da95b89618ea9" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8664f676c42d52e6576da95b89618ea9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orangehrm.actiondriver.ActionDriver.waitForEleVisibility(ActionDriver.java:45)
+	at com.orangehrm.actiondriver.ActionDriver.isVisible(ActionDriver.java:178)
+	at com.orangehrm.pages.HomePage.isDeshboardDisplayed(HomePage.java:26)
+	at com.orangehrm.tesetcases.TC003validLoginRemoteTest.validLoginTest(TC003validLoginRemoteTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[16:40:16 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:16 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:40:17 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:40:17 [TestNG-test=Test-2] ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8664f676c42d52e6576da95b89618ea9
+]]></system-out>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](1)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64905}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64905/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a2667985217d9d8483158611f5a1ca00"/>
+    <system-out><![CDATA[16:36:40 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64905}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64905/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2667985217d9d8483158611f5a1ca00
+]]></system-out>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](2)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65361}, goog:processID: 15640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65361/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1543795291a82925e28831efc7d99cac"/>
+    <system-out><![CDATA[16:38:29 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65361}, goog:processID: 15640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65361/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1543795291a82925e28831efc7d99cac
+]]></system-out>
+  </testcase>
+  <testcase name="addNewEmployee[Manish, hello, Kumar, 104261, manishKumar, Man123456, Man123456, D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg](3)" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="103.788">
+    <failure message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 43537ae943c8901e92912392baf1231d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43537ae943c8901e92912392baf1231d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+	at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+	at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee(TC004AdditionAndDelete.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:29 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:38:29 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:38:30 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:38:31 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:31 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:38:31 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:31 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:31 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:38:31 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:38:32 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:32 [TestNG-test=Test-2] INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: username]
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: username]
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: username]
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: username]
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: password]
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: password]
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:38:33 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:38:33 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> xpath: //button[@type='submit']]
+16:38:34 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> xpath: //button[@type='submit']]
+16:38:34 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:38:35 [TestNG-test=Test-2] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:40:16 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43537ae943c8901e92912392baf1231d
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:38:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+May 22, 2026 4:38:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, goog:processID: 19892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 069032e74fc03506f1c59b2b3f4173ca"/>
+    <system-out><![CDATA[16:40:17 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-2] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:40:18 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:40:18 [TestNG-test=Test-2] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:18 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: username]
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: username]
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: password]
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> xpath: //button[@type='submit']]
+16:40:19 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:42:02 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, goog:processID: 19892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 069032e74fc03506f1c59b2b3f4173ca
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:40:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49529}, goog:processID: 19280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 780df1a6a5b51a70809c533d93c45872"/>
+    <system-out><![CDATA[16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:42:02 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:42:04 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:04 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:42:04 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:05 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:05 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:05 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:42:05 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:05 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: username]
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: username]
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:42:06 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: password]
+16:42:07 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:42:07 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> xpath: //button[@type='submit']]
+16:42:07 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:43:49 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49529}, goog:processID: 19280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 780df1a6a5b51a70809c533d93c45872
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:42:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="searchEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="103.96">
+    <failure message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 08bfe9f127a05e075a11ffb75981cb56" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bfe9f127a05e075a11ffb75981cb56
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+	at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+	at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[16:43:49 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:43:50 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:43:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:51 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:43:51 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:52 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:52 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:52 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:43:52 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:52 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: username]
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: username]
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: password]
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> xpath: //button[@type='submit']]
+16:43:53 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:45:36 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bfe9f127a05e075a11ffb75981cb56
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:43:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 16356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37fc24362c80c2e7f53801a9ece4e495"/>
+    <system-out><![CDATA[16:45:36 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:36 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:45:37 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:38 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: username]
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: username]
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: password]
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> xpath: //button[@type='submit']]
+16:45:39 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:47:22 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 16356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37fc24362c80c2e7f53801a9ece4e495
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:45:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="0.0">
+    <skipped message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50882}, goog:processID: 13724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50882/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ec8f12c381af411cbf843c6709798b54"/>
+    <system-out><![CDATA[16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:47:22 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:47:23 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:23 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:47:23 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:24 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:24 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:24 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:47:24 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:24 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: username]
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: username]
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: password]
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> xpath: //button[@type='submit']]
+16:47:25 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:49:08 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50882}, goog:processID: 13724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50882/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8f12c381af411cbf843c6709798b54
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:47:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.orangehrm.tesetcases.TC004AdditionAndDelete" time="103.65">
+    <failure message="Expected condition failed: waiting for element found by By.xpath: //ul[@class=&quot;oxd-main-menu&quot;]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&quot;oxd-main-menu&quot;]/li[2]&quot;}.&#10;(tried for 60 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ac710f411688fa67346e82ed5b083f3c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac710f411688fa67346e82ed5b083f3c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+	at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+	at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+	at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+16:49:08 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:10 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: username]
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: username]
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: password]
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> xpath: //button[@type='submit']]
+16:49:11 [TestNG-test=Test-3] INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+16:50:54 [TestNG-test=Test-3] ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac710f411688fa67346e82ed5b083f3c
+]]></system-out>
+    <system-err><![CDATA[May 22, 2026 4:49:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 148
+]]></system-err>
+  </testcase>
 </testsuite>

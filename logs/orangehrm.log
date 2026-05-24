@@ -1,748 +1,482 @@
-2026-05-22 15:04:50 INFO  com.orangehrm.base.BaseTest - config.properties loaded
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:04:56 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:04:56 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:04:56 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:04:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:01 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> name: username]
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> name: username]
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> name: username]
-2026-05-22 15:05:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> name: username]
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> name: password]
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> name: password]
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:02 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:05:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:02 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a59a5d52c0ab9fb1d93c1cc0f010ab9a)] -> name: username]
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:03 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a59a5d52c0ab9fb1d93c1cc0f010ab9a)] -> name: username]
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a59a5d52c0ab9fb1d93c1cc0f010ab9a)] -> name: password]
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a59a5d52c0ab9fb1d93c1cc0f010ab9a)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:03 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> xpath: //div[@class="oxd-topbar-header-title"]/span]
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
-2026-05-22 15:05:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> xpath: //li[@class="oxd-userdropdown"]/span]
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-22 15:05:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (c184f94b41733b1cde91f6d6c2f2c64d)] -> xpath: //ul[@role="menu"]/li[4]]
-2026-05-22 15:05:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a59a5d52c0ab9fb1d93c1cc0f010ab9a)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:05:06 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:05:06 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:06 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:05:06 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
-2026-05-22 15:05:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> link text: Add Employee]
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:07 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:07 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:07 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:07 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:07 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //input[@placeholder="First Name"]]
-2026-05-22 15:05:08 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
-2026-05-22 15:05:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //input[@placeholder='Middle Name']]
-2026-05-22 15:05:08 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
-2026-05-22 15:05:09 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:09 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:09 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //input[@placeholder='Last Name']]
-2026-05-22 15:05:09 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //p[text()='Create Login Details']/following-sibling::div]
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 08283 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //label[text()='Username']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:10 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //label[text()='Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (083686894c37e775b021ef51f245f2ce)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:11 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:12 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:13 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:13 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:05:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:14 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3660f14a7c37946dd00b6155b55e985)] -> name: username]
-2026-05-22 15:05:14 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:14 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3660f14a7c37946dd00b6155b55e985)] -> name: username]
-2026-05-22 15:05:15 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
-2026-05-22 15:05:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3660f14a7c37946dd00b6155b55e985)] -> name: password]
-2026-05-22 15:05:15 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
-2026-05-22 15:05:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3660f14a7c37946dd00b6155b55e985)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:15 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:15 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:15 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:15 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:15 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:15 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:15 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:15 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3660f14a7c37946dd00b6155b55e985)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:05:16 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:05:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:16 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:17 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:17 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:19 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:20 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:20 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:20 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:20 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:05:20 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:23 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> name: username]
-2026-05-22 15:05:23 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> name: username]
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> name: password]
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (b1c16141690424f32606a9233810b69b)] -> name: username]
-2026-05-22 15:05:24 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (b1c16141690424f32606a9233810b69b)] -> name: username]
-2026-05-22 15:05:25 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
-2026-05-22 15:05:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (b1c16141690424f32606a9233810b69b)] -> name: password]
-2026-05-22 15:05:25 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
-2026-05-22 15:05:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (b1c16141690424f32606a9233810b69b)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:26 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:26 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:05:27 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (b1c16141690424f32606a9233810b69b)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:05:27 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:05:27 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:27 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:05:28 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:29 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:29 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:29 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 08283 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:05:29 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:05:29 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:05:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:30 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:30 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:05:31 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:05:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (54be4871dd4c566bc3e9aa77cc1c4acb)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:05:32 INFO  com.orangehrm.actiondriver.ActionDriver - '08283' is matched to '08283' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:05:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:33 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:33 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
-2026-05-22 15:05:33 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:34 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:37 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> name: username]
-2026-05-22 15:05:38 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> name: username]
-2026-05-22 15:05:38 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:05:38 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> name: password]
-2026-05-22 15:05:39 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:05:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //button[@type='submit']]
-2026-05-22 15:05:39 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:05:41 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:05:42 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:05:42 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:05:43 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 08283 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:05:43 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:05:43 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - '08283' is matched to '08283' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:05:45 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //div[@role='row']//div[@role='cell'][9]//button[2]]
-2026-05-22 15:05:45 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='row']//div[@role='cell'][9]//button[2]
-2026-05-22 15:05:47 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a0f43f397fb0fc9394491be52a15f9ce)] -> xpath: //div[@class='orangehrm-modal-footer']/button[2]]
-2026-05-22 15:05:47 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
-2026-05-22 15:05:48 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:48 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:50 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:05:50 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:05:50 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:05:51 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:54 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:54 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:54 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:05:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:58 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> name: username]
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:05:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> name: username]
-2026-05-22 15:05:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:05:59 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:05:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:05:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> name: password]
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:06:00 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:00 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (73da9523d03e43357ee804140e6cdae8)] -> name: username]
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (73da9523d03e43357ee804140e6cdae8)] -> name: username]
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> name: username]
-2026-05-22 15:06:00 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> name: username]
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (73da9523d03e43357ee804140e6cdae8)] -> name: password]
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> name: password]
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (73da9523d03e43357ee804140e6cdae8)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:06:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (73da9523d03e43357ee804140e6cdae8)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:06:03 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:06:03 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:03 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:06:03 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> xpath: //div[@class="oxd-topbar-header-title"]/span]
-2026-05-22 15:06:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> link text: Add Employee]
-2026-05-22 15:06:04 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
-2026-05-22 15:06:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> xpath: //li[@class="oxd-userdropdown"]/span]
-2026-05-22 15:06:05 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
-2026-05-22 15:06:05 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-22 15:06:05 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (861609e966df0b75bfda0b8f7dd26a2f)] -> xpath: //ul[@role="menu"]/li[4]]
-2026-05-22 15:06:05 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //input[@placeholder="First Name"]]
-2026-05-22 15:06:06 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
-2026-05-22 15:06:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
-2026-05-22 15:06:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //input[@placeholder='Middle Name']]
-2026-05-22 15:06:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:07 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
-2026-05-22 15:06:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //input[@placeholder='Last Name']]
-2026-05-22 15:06:07 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:08 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:08 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:08 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:08 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //p[text()='Create Login Details']/following-sibling::div]
-2026-05-22 15:06:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:11 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:11 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
-2026-05-22 15:06:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 55675 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:06:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //label[text()='Username']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:12 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
-2026-05-22 15:06:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //label[text()='Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:12 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
-2026-05-22 15:06:12 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:13 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
-2026-05-22 15:06:13 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (2ca1934d4223a9194f6a748dd56d3952)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:13 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:14 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:06:14 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:06:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:15 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (7f2fdcc8a544ae17eda2bcb184bd05bb)] -> name: username]
-2026-05-22 15:06:15 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:15 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:15 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (7f2fdcc8a544ae17eda2bcb184bd05bb)] -> name: username]
-2026-05-22 15:06:16 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
-2026-05-22 15:06:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (7f2fdcc8a544ae17eda2bcb184bd05bb)] -> name: password]
-2026-05-22 15:06:16 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
-2026-05-22 15:06:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (7f2fdcc8a544ae17eda2bcb184bd05bb)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:17 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:17 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:17 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:19 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:19 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (7f2fdcc8a544ae17eda2bcb184bd05bb)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:06:19 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:06:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:20 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:20 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:22 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:06:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:23 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:23 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> name: username]
-2026-05-22 15:06:23 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> name: username]
-2026-05-22 15:06:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:06:26 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> name: password]
-2026-05-22 15:06:26 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:26 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:26 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:27 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:06:27 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:29 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:29 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:06:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:30 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:06:30 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:06:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (c0f0ccb12bdedf2d781ba7d12f86ff67)] -> name: username]
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:31 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (c0f0ccb12bdedf2d781ba7d12f86ff67)] -> name: username]
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (c0f0ccb12bdedf2d781ba7d12f86ff67)] -> name: password]
-2026-05-22 15:06:31 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 55675 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:06:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:06:32 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
-2026-05-22 15:06:32 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (c0f0ccb12bdedf2d781ba7d12f86ff67)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:32 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:06:33 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (c0f0ccb12bdedf2d781ba7d12f86ff67)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:06:33 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:06:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:06:34 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:06:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (39b54df5918371940446a6a5e129b846)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:06:34 INFO  com.orangehrm.actiondriver.ActionDriver - '55675' is matched to '55675' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:06:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:34 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:34 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:35 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:35 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on edge
-2026-05-22 15:06:35 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:37 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:37 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> name: username]
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:06:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> name: username]
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> name: password]
-2026-05-22 15:06:40 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:06:41 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //button[@type='submit']]
-2026-05-22 15:06:43 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:06:44 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:06:45 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:06:46 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:06:46 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 55675 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:06:46 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:06:46 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:06:48 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:06:48 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:06:48 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:06:48 INFO  com.orangehrm.actiondriver.ActionDriver - '55675' is matched to '55675' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:06:48 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:48 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //div[@role='row']//div[@role='cell'][9]//button[2]]
-2026-05-22 15:06:49 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='row']//div[@role='cell'][9]//button[2]
-2026-05-22 15:06:51 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[EdgeDriver: MicrosoftEdge on windows (3287c36b8d4b4f4da804a0911bfa21f2)] -> xpath: //div[@class='orangehrm-modal-footer']/button[2]]
-2026-05-22 15:06:51 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
-2026-05-22 15:06:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:06:52 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:06:52 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:52 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:06:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:56 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:56 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:06:59 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:06:59 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:01 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:01 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
-2026-05-22 15:07:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> name: username]
-2026-05-22 15:07:03 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:03 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:03 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> name: username]
-2026-05-22 15:07:04 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:07:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> name: password]
-2026-05-22 15:07:04 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:07:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:04 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:04 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:07:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ddc13fcf-9826-4495-bbef-ab97fa40bc15)] -> name: username]
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:06 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ddc13fcf-9826-4495-bbef-ab97fa40bc15)] -> name: username]
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ddc13fcf-9826-4495-bbef-ab97fa40bc15)] -> name: password]
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
-2026-05-22 15:07:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ddc13fcf-9826-4495-bbef-ab97fa40bc15)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> xpath: //div[@class="oxd-topbar-header-title"]/span]
-2026-05-22 15:07:07 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.xpath: //div[@class="oxd-topbar-header-title"]/span is visible
-2026-05-22 15:07:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> xpath: //li[@class="oxd-userdropdown"]/span]
-2026-05-22 15:07:07 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //li[@class="oxd-userdropdown"]/span
-2026-05-22 15:07:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ebe5345a-d168-4df6-882d-b588883e94e8)] -> xpath: //ul[@role="menu"]/li[4]]
-2026-05-22 15:07:08 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@role="menu"]/li[4]
-2026-05-22 15:07:09 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:09 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:10 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:10 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:10 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (ddc13fcf-9826-4495-bbef-ab97fa40bc15)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:07:11 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:07:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:12 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:13 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:13 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:13 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:13 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:13 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:13 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:13 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:14 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:14 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> name: username]
-2026-05-22 15:07:15 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:15 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> name: username]
-2026-05-22 15:07:15 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:07:15 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> name: password]
-2026-05-22 15:07:16 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:07:16 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:16 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:07:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:17 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:18 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:07:19 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:07:20 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> link text: Add Employee]
-2026-05-22 15:07:20 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.linkText: Add Employee
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //input[@placeholder="First Name"]]
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Manish in : By.xpath: //input[@placeholder="First Name"]
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //input[@placeholder='Middle Name']]
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.xpath: //input[@placeholder='Middle Name']
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //input[@placeholder='Last Name']]
-2026-05-22 15:07:21 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Kumar in : By.xpath: //input[@placeholder='Last Name']
-2026-05-22 15:07:22 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //p[text()='Create Login Details']/following-sibling::div]
-2026-05-22 15:07:22 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //p[text()='Create Login Details']/following-sibling::div
-2026-05-22 15:07:22 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:22 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 01365 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:07:22 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //label[text()='Username']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : manishKumar in : By.xpath: //label[text()='Username']/parent::div/following-sibling::div/input
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //label[text()='Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Password']/parent::div/following-sibling::div/input
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Man123456 in : By.xpath: //label[text()='Confirm Password']/parent::div/following-sibling::div/input
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (23c13c66-c4e9-4285-a57c-a120f9869356)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:23 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:23 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:07:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (af535078-8728-4c52-af26-75a4a60dab40)] -> name: username]
-2026-05-22 15:07:24 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:24 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (af535078-8728-4c52-af26-75a4a60dab40)] -> name: username]
-2026-05-22 15:07:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:24 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
-2026-05-22 15:07:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (af535078-8728-4c52-af26-75a4a60dab40)] -> name: password]
-2026-05-22 15:07:25 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
-2026-05-22 15:07:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (af535078-8728-4c52-af26-75a4a60dab40)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:25 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:26 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:26 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (af535078-8728-4c52-af26-75a4a60dab40)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:07:26 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:26 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:26 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:26 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:27 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:27 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:29 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:29 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:29 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:29 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:29 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:29 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:29 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:30 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:07:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:33 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> name: username]
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:34 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> name: username]
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> name: password]
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:07:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:35 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:35 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:07:35 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:37 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:37 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:07:39 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:39 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:39 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
-2026-05-22 15:07:39 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 01365 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:07:39 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (0d727b97-9780-44ff-a34f-9dd14a58b21c)] -> name: username]
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (0d727b97-9780-44ff-a34f-9dd14a58b21c)] -> name: username]
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (0d727b97-9780-44ff-a34f-9dd14a58b21c)] -> name: password]
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
-2026-05-22 15:07:40 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (0d727b97-9780-44ff-a34f-9dd14a58b21c)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:41 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:07:41 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:07:42 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (b5a86890-0703-4e54-accb-c1e28faae461)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:07:42 INFO  com.orangehrm.actiondriver.ActionDriver - '01365' is matched to '01365' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:07:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:42 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:42 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (0d727b97-9780-44ff-a34f-9dd14a58b21c)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
-2026-05-22 15:07:42 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
-2026-05-22 15:07:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:44 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:44 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:44 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:44 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:44 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on firefox
-2026-05-22 15:07:44 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
-2026-05-22 15:07:45 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:07:45 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:07:45 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
-2026-05-22 15:07:47 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:47 INFO  com.orangehrm.base.BaseTest - Selected URL is: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-05-22 15:07:47 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:51 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
-2026-05-22 15:07:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> name: username]
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
-2026-05-22 15:07:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> name: username]
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> name: password]
-2026-05-22 15:07:52 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
-2026-05-22 15:07:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //button[@type='submit']]
-2026-05-22 15:07:56 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
-2026-05-22 15:07:56 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //ul[@class="oxd-main-menu"]/li[2]]
-2026-05-22 15:07:59 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]
-2026-05-22 15:07:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input]
-2026-05-22 15:07:59 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : 01365 in : By.xpath: //label[text()='Employee Id']/parent::div/following-sibling::div/input
-2026-05-22 15:07:59 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //button[@type="submit"]]
-2026-05-22 15:07:59 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type="submit"]
-2026-05-22 15:08:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:08:01 INFO  com.orangehrm.actiondriver.ActionDriver - scroll page to the element By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:08:01 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //div[@role='row']//div[@role='cell'][2]/child::div]
-2026-05-22 15:08:01 INFO  com.orangehrm.actiondriver.ActionDriver - '01365' is matched to '01365' at location :By.xpath: //div[@role='row']//div[@role='cell'][2]/child::div
-2026-05-22 15:08:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:08:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //div[@role='row']//div[@role='cell'][9]//button[2]]
-2026-05-22 15:08:02 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@role='row']//div[@role='cell'][9]//button[2]
-2026-05-22 15:08:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[FirefoxDriver: firefox on windows (edca6f82-e78d-44ce-aae5-fca2deba3226)] -> xpath: //div[@class='orangehrm-modal-footer']/button[2]]
-2026-05-22 15:08:04 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //div[@class='orangehrm-modal-footer']/button[2]
-2026-05-22 15:08:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:08:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
-2026-05-22 15:08:06 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
-2026-05-22 15:08:06 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
-2026-05-22 15:08:06 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:34:16 INFO  com.orangehrm.base.BaseTest - config.properties loaded
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:23 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:34:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:23 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:34:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:24 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:34:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:51 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:34:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:34:52 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:52 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:34:52 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-22 16:34:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: username]
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:34:53 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: username]
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: username]
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:34:53 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:34:53 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: username]
+2026-05-22 16:34:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: username]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: username]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> name: password]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: username
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> name: password]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> name: password]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (4d55303657ac9900730ec8b1d0c9a69e)] -> xpath: //button[@type='submit']]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : nil in : By.name: password
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (a2667985217d9d8483158611f5a1ca00)] -> xpath: //button[@type='submit']]
+2026-05-22 16:34:54 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> xpath: //button[@type='submit']]
+2026-05-22 16:34:55 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:34:57 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:34:57 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:34:57 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (00bf59e4c32b7b39294f0adc35893932)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+2026-05-22 16:34:57 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-22 16:34:57 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:34:58 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:34:58 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:34:58 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:35:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:00 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:35:00 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:01 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:35:01 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-22 16:35:01 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: username]
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:35:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: username]
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : hello in : By.name: username
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> name: password]
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : heloo in : By.name: password
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> xpath: //button[@type='submit']]
+2026-05-22 16:35:02 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:35:04 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (f3f7c4ed2d187944640a3f1e3661fbce)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+2026-05-22 16:35:04 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-22 16:35:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:06 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:35:06 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:35:06 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:35:06 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:35:06 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:35:06 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:35:06 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:35:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:07 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:35:07 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:08 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:35:08 INFO  com.orangehrm.tesetcases.TC001InvalidLoginTest - TC001InvalidLoginTest is executed
+2026-05-22 16:35:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: username]
+2026-05-22 16:35:08 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:35:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:08 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: username]
+2026-05-22 16:35:09 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : abcd in : By.name: username
+2026-05-22 16:35:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> name: password]
+2026-05-22 16:35:09 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : efgh in : By.name: password
+2026-05-22 16:35:09 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> xpath: //button[@type='submit']]
+2026-05-22 16:35:09 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:35:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (e7d300ce5837c121eb9b960b37001dd1)] -> xpath: //div[@class="orangehrm-login-form"]/div/div/div/p]
+2026-05-22 16:35:11 INFO  com.orangehrm.actiondriver.ActionDriver - 'Invalid credentials' is matched to 'Invalid credentials' at location :By.xpath: //div[@class="orangehrm-login-form"]/div/div/div/p
+2026-05-22 16:35:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:12 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:35:12 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:35:12 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:35:12 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:36:40 ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64916}, goog:processID: 4236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64916/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d55303657ac9900730ec8b1d0c9a69e
+2026-05-22 16:36:40 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64905}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64905/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2667985217d9d8483158611f5a1ca00
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:36:40 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:36:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:42 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:36:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:42 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:36:42 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:43 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:36:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:43 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:36:44 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: username]
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: username]
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:36:44 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:36:44 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: username]
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: username]
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> name: password]
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> name: password]
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1905f7952a1c72d641cc0f3a87602c38)] -> xpath: //button[@type='submit']]
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:36:45 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (1543795291a82925e28831efc7d99cac)] -> xpath: //button[@type='submit']]
+2026-05-22 16:36:46 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:36:47 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:38:29 ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 12008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1905f7952a1c72d641cc0f3a87602c38
+2026-05-22 16:38:29 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65361}, goog:processID: 15640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65361/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1543795291a82925e28831efc7d99cac
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:38:29 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:38:29 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:38:29 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:38:30 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:38:30 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:38:30 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:38:30 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:38:30 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:38:30 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:38:30 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:38:31 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:31 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:38:31 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:31 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:31 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:38:31 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:38:32 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - TC003validLoginRemoteTest is executed
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:32 INFO  com.orangehrm.tesetcases.TC003validLoginRemoteTest - Admin & admin123
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: username]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:38:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: username]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:38:33 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: username]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: username]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> name: password]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> name: password]
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:38:33 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (43537ae943c8901e92912392baf1231d)] -> xpath: //button[@type='submit']]
+2026-05-22 16:38:34 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (8664f676c42d52e6576da95b89618ea9)] -> xpath: //button[@type='submit']]
+2026-05-22 16:38:34 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:38:35 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:40:16 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43537ae943c8901e92912392baf1231d
+2026-05-22 16:40:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:16 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:40:17 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:40:17 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:40:17 ERROR com.orangehrm.actiondriver.ActionDriver - unable to located element :By.xpath: //div[@class="oxd-topbar-header-title"]/spanExpected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8664f676c42d52e6576da95b89618ea9
+2026-05-22 16:40:17 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:40:18 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:40:18 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:18 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: username]
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:40:19 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: username]
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> name: password]
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (069032e74fc03506f1c59b2b3f4173ca)] -> xpath: //button[@type='submit']]
+2026-05-22 16:40:19 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:42:02 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, goog:processID: 19892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 069032e74fc03506f1c59b2b3f4173ca
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:42:02 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:42:02 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:42:02 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:42:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:04 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:42:04 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:05 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:42:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:05 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: username]
+2026-05-22 16:42:06 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:42:06 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:42:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: username]
+2026-05-22 16:42:06 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:42:06 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> name: password]
+2026-05-22 16:42:07 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:42:07 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (780df1a6a5b51a70809c533d93c45872)] -> xpath: //button[@type='submit']]
+2026-05-22 16:42:07 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:43:49 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49529}, goog:processID: 19280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 780df1a6a5b51a70809c533d93c45872
+2026-05-22 16:43:49 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:50 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:43:50 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:43:50 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:43:50 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:43:50 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:43:50 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:43:50 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:43:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:51 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:43:51 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:52 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:43:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:52 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: username]
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:43:53 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: username]
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> name: password]
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (08bfe9f127a05e075a11ffb75981cb56)] -> xpath: //button[@type='submit']]
+2026-05-22 16:43:53 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:45:36 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bfe9f127a05e075a11ffb75981cb56
+2026-05-22 16:45:36 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:36 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:45:37 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:45:37 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:45:37 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:38 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:45:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:38 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:45:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:38 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: username]
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:45:39 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: username]
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> name: password]
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (37fc24362c80c2e7f53801a9ece4e495)] -> xpath: //button[@type='submit']]
+2026-05-22 16:45:39 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:47:22 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 16356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37fc24362c80c2e7f53801a9ece4e495
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:47:22 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:47:22 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:47:22 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:47:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:23 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:47:23 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:24 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:47:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:24 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: username]
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:47:25 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: username]
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> name: password]
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ec8f12c381af411cbf843c6709798b54)] -> xpath: //button[@type='submit']]
+2026-05-22 16:47:25 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:49:08 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50882}, goog:processID: 13724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50882/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8f12c381af411cbf843c6709798b54
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:49:08 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:49:08 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - Test execution runiing on chrome
+2026-05-22 16:49:08 INFO  com.orangehrm.factory.DriverFactory - config file access successfull
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:10 INFO  com.orangehrm.base.BaseTest - Selected URL is: http://localhost/OrangeHRM/orangehrm-5.8/web/index.php/auth/login
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:10 INFO  com.orangehrm.actiondriver.ActionDriver - ActionDriver is initalized
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:10 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: username]
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - element located by : By.name: username is visible
+2026-05-22 16:49:11 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: username]
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : Admin in : By.name: username
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> name: password]
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - enter text : admin123 in : By.name: password
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - Color applied green to element [[ChromeDriver: chrome on windows (ac710f411688fa67346e82ed5b083f3c)] -> xpath: //button[@type='submit']]
+2026-05-22 16:49:11 INFO  com.orangehrm.actiondriver.ActionDriver - click on : By.xpath: //button[@type='submit']
+2026-05-22 16:50:54 ERROR com.orangehrm.actiondriver.ActionDriver - unable to click on : By.xpath: //ul[@class="oxd-main-menu"]/li[2]Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac710f411688fa67346e82ed5b083f3c
+2026-05-22 16:50:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:50:54 INFO  com.orangehrm.factory.DriverFactory - WebDriver is initialized
+2026-05-22 16:50:55 INFO  com.orangehrm.factory.DriverFactory - WebDriver terminated
+2026-05-22 16:50:55 INFO  com.orangehrm.base.BaseTest - WebDriver instance terminated
+2026-05-22 16:50:55 INFO  com.orangehrm.base.BaseTest - ActionDriver instance terminated

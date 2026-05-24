@@ -4,8 +4,7 @@
   <listeners>
     <listener class-name="com.orangehrm.listeners.MyListener"/>
   </listeners>
-  <test thread-count="4" parallel="classes" name="edgeTest(failed)" verbose="0">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="4" parallel="classes" name="Test(failed)" verbose="0">
     <classes>
       <class name="com.orangehrm.tesetcases.TC004AdditionAndDelete">
         <methods>
@@ -14,9 +13,20 @@
           <include name="readConfig"/>
           <include name="tearDown"/>
           <include name="deleteEmployee"/>
+          <include name="addNewEmployee" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="searchEmployee"/>
         </methods>
       </class> <!-- com.orangehrm.tesetcases.TC004AdditionAndDelete -->
+      <class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest">
+        <methods>
+          <include name="validLoginTest" invocation-numbers="0"/>
+          <include name="readConfig"/>
+          <include name="tearDown"/>
+          <include name="pageSetup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.orangehrm.tesetcases.TC003validLoginRemoteTest -->
     </classes>
-  </test> <!-- edgeTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

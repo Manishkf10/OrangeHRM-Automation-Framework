@@ -51,7 +51,7 @@ public class PIMpage {
 	public void searchEmlyee(String name) {
 		act.enterText(employeeSearch, name);
 		act.clickOn(searchButton);
-		//BaseTest.staticWait(1111);
+		BaseTest.staticWait(2000);
 		act.scrollPage(empFirstMiddleName);
 	}
 	public boolean verifyEmployeeFirstAndMiddleName(String empFirstMiddle){

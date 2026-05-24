@@ -1,558 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="27" passed="21" failed="0" skipped="0">
+<testng-results retried="8" ignored="2" total="17" passed="3" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-22T15:04:50 IST" name="Suite" finished-at="2026-05-22T15:08:06 IST" duration-ms="196561">
+  <suite started-at="2026-05-22T16:34:16 IST" name="Suite" finished-at="2026-05-22T16:50:55 IST" duration-ms="998652">
     <groups>
     </groups>
-    <test started-at="2026-05-22T15:04:50 IST" name="chromeTest" finished-at="2026-05-22T15:05:50 IST" duration-ms="60041">
+    <test started-at="2026-05-22T16:34:16 IST" name="Test" finished-at="2026-05-22T16:50:55 IST" duration-ms="998652">
       <class name="com.orangehrm.tesetcases.TC004AdditionAndDelete">
-        <test-method is-config="true" signature="employeeIdSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:04:50 IST" name="employeeIdSetup" finished-at="2026-05-22T15:04:50 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeIdSetup -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:04:51 IST" name="setup" finished-at="2026-05-22T15:05:01 IST" duration-ms="9126" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:01 IST" name="pageSetup" finished-at="2026-05-22T15:05:01 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:01 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T15:05:12 IST" duration-ms="11584" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Manish]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kumar]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[104261]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[manishKumar]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Man123456]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Man123456]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:13 IST" name="tearDown" finished-at="2026-05-22T15:05:15 IST" duration-ms="2303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:15 IST" name="setup" finished-at="2026-05-22T15:05:23 IST" duration-ms="7445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:23 IST" name="searchEmployee" finished-at="2026-05-22T15:05:32 IST" duration-ms="9069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchEmployee -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:23 IST" name="pageSetup" finished-at="2026-05-22T15:05:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:32 IST" name="tearDown" finished-at="2026-05-22T15:05:33 IST" duration-ms="434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:33 IST" name="setup" finished-at="2026-05-22T15:05:37 IST" duration-ms="4499" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:37 IST" name="pageSetup" finished-at="2026-05-22T15:05:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:37 IST" name="deleteEmployee" finished-at="2026-05-22T15:05:47 IST" duration-ms="10149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@6f2cfcc2]" started-at="2026-05-22T15:05:48 IST" name="tearDown" finished-at="2026-05-22T15:05:50 IST" duration-ms="1661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC004AdditionAndDelete -->
-      <class name="com.orangehrm.tesetcases.TC001InvalidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:04:51 IST" name="setup" finished-at="2026-05-22T15:05:02 IST" duration-ms="10737" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:02 IST" name="pageSetup" finished-at="2026-05-22T15:05:02 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:02 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:05:06 IST" duration-ms="3922" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nil]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nil]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:07 IST" name="tearDown" finished-at="2026-05-22T15:05:07 IST" duration-ms="597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:07 IST" name="setup" finished-at="2026-05-22T15:05:13 IST" duration-ms="5609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:13 IST" name="pageSetup" finished-at="2026-05-22T15:05:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:13 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:05:16 IST" duration-ms="3508" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[heloo]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:17 IST" name="tearDown" finished-at="2026-05-22T15:05:17 IST" duration-ms="433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:17 IST" name="setup" finished-at="2026-05-22T15:05:20 IST" duration-ms="2385" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:20 IST" name="pageSetup" finished-at="2026-05-22T15:05:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:20 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:05:27 IST" duration-ms="7133" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[efgh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@5066d65f]" started-at="2026-05-22T15:05:28 IST" name="tearDown" finished-at="2026-05-22T15:05:30 IST" duration-ms="1487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC001InvalidLoginTest -->
-      <class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@4233e892]" started-at="2026-05-22T15:04:51 IST" name="setup" finished-at="2026-05-22T15:05:01 IST" duration-ms="9144" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@4233e892]" started-at="2026-05-22T15:05:01 IST" name="pageSetup" finished-at="2026-05-22T15:05:01 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@4233e892]" started-at="2026-05-22T15:05:01 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T15:05:06 IST" duration-ms="5782" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@4233e892]" started-at="2026-05-22T15:05:07 IST" name="tearDown" finished-at="2026-05-22T15:05:07 IST" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC003validLoginRemoteTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2026-05-22T15:05:51 IST" name="edgeTest" finished-at="2026-05-22T15:06:52 IST" duration-ms="61582">
-      <class name="com.orangehrm.tesetcases.TC004AdditionAndDelete">
-        <test-method is-config="true" signature="employeeIdSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:05:51 IST" name="employeeIdSetup" finished-at="2026-05-22T15:05:51 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeIdSetup -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:05:51 IST" name="setup" finished-at="2026-05-22T15:05:58 IST" duration-ms="7030" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:05:58 IST" name="pageSetup" finished-at="2026-05-22T15:05:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:05:58 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T15:06:14 IST" duration-ms="16551" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Manish]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kumar]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[104261]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[manishKumar]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Man123456]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Man123456]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:15 IST" name="tearDown" finished-at="2026-05-22T15:06:17 IST" duration-ms="1523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:17 IST" name="setup" finished-at="2026-05-22T15:06:22 IST" duration-ms="5702" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:22 IST" name="pageSetup" finished-at="2026-05-22T15:06:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:22 IST" name="searchEmployee" finished-at="2026-05-22T15:06:34 IST" duration-ms="11939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:35 IST" name="tearDown" finished-at="2026-05-22T15:06:35 IST" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:35 IST" name="setup" finished-at="2026-05-22T15:06:37 IST" duration-ms="2070" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:37 IST" name="pageSetup" finished-at="2026-05-22T15:06:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:37 IST" name="deleteEmployee" finished-at="2026-05-22T15:06:51 IST" duration-ms="13595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@5c10f1c3]" started-at="2026-05-22T15:06:52 IST" name="tearDown" finished-at="2026-05-22T15:06:52 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC004AdditionAndDelete -->
-      <class name="com.orangehrm.tesetcases.TC001InvalidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:05:51 IST" name="setup" finished-at="2026-05-22T15:05:59 IST" duration-ms="8693" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:05:59 IST" name="pageSetup" finished-at="2026-05-22T15:05:59 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:05:59 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:06:03 IST" duration-ms="3650" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nil]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nil]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:04 IST" name="tearDown" finished-at="2026-05-22T15:06:08 IST" duration-ms="4389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:08 IST" name="setup" finished-at="2026-05-22T15:06:14 IST" duration-ms="6095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:14 IST" name="pageSetup" finished-at="2026-05-22T15:06:14 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:14 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:06:19 IST" duration-ms="5152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[heloo]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:20 IST" name="tearDown" finished-at="2026-05-22T15:06:23 IST" duration-ms="2857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:23 IST" name="setup" finished-at="2026-05-22T15:06:30 IST" duration-ms="7350" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:30 IST" name="pageSetup" finished-at="2026-05-22T15:06:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:30 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:06:33 IST" duration-ms="3053" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[efgh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@7ac2e39b]" started-at="2026-05-22T15:06:34 IST" name="tearDown" finished-at="2026-05-22T15:06:34 IST" duration-ms="405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC001InvalidLoginTest -->
-      <class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@78365cfa]" started-at="2026-05-22T15:05:51 IST" name="setup" finished-at="2026-05-22T15:06:00 IST" duration-ms="9045" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@78365cfa]" started-at="2026-05-22T15:06:00 IST" name="pageSetup" finished-at="2026-05-22T15:06:00 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@78365cfa]" started-at="2026-05-22T15:06:00 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T15:06:06 IST" duration-ms="6506" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@78365cfa]" started-at="2026-05-22T15:06:07 IST" name="tearDown" finished-at="2026-05-22T15:06:08 IST" duration-ms="1433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tesetcases.TC003validLoginRemoteTest -->
-    </test> <!-- edgeTest -->
-    <test started-at="2026-05-22T15:06:52 IST" name="firefoxTest" finished-at="2026-05-22T15:08:06 IST" duration-ms="74088">
-      <class name="com.orangehrm.tesetcases.TC004AdditionAndDelete">
-        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:04:50 IST" name="readConfig" finished-at="2026-05-22T15:04:50 IST" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:34:16 IST" name="readConfig" finished-at="2026-05-22T16:34:16 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readConfig -->
-        <test-method is-config="true" signature="employeeIdSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:06:52 IST" name="employeeIdSetup" finished-at="2026-05-22T15:06:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="employeeIdSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:34:16 IST" name="employeeIdSetup" finished-at="2026-05-22T16:34:16 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employeeIdSetup -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:06:52 IST" name="setup" finished-at="2026-05-22T15:07:14 IST" duration-ms="21954" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:34:17 IST" name="setup" finished-at="2026-05-22T16:34:51 IST" duration-ms="33346" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:14 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T15:07:24 IST" duration-ms="9672" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:34:51 IST" name="pageSetup" finished-at="2026-05-22T16:34:51 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:34:51 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T16:36:40 IST" duration-ms="108908" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -595,81 +71,641 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64905}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64905/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2667985217d9d8483158611f5a1ca00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64905}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64905/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2667985217d9d8483158611f5a1ca00
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee(TC004AdditionAndDelete.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewEmployee -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:14 IST" name="pageSetup" finished-at="2026-05-22T15:07:14 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:24 IST" name="tearDown" finished-at="2026-05-22T15:07:26 IST" duration-ms="1822" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:36:40 IST" name="tearDown" finished-at="2026-05-22T16:36:40 IST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:26 IST" name="setup" finished-at="2026-05-22T15:07:33 IST" duration-ms="6440" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:36:40 IST" name="setup" finished-at="2026-05-22T16:36:43 IST" duration-ms="3052" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:33 IST" name="searchEmployee" finished-at="2026-05-22T15:07:42 IST" duration-ms="8923" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:36:43 IST" name="pageSetup" finished-at="2026-05-22T16:36:43 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:36:43 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T16:38:29 IST" duration-ms="105897" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[104261]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manishKumar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Man123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Man123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65361}, goog:processID: 15640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65361/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1543795291a82925e28831efc7d99cac]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65361}, goog:processID: 15640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65361/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1543795291a82925e28831efc7d99cac
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee(TC004AdditionAndDelete.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:38:29 IST" name="tearDown" finished-at="2026-05-22T16:38:30 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:38:30 IST" name="setup" finished-at="2026-05-22T16:38:32 IST" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:38:32 IST" name="pageSetup" finished-at="2026-05-22T16:38:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="addNewEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:38:32 IST" name="addNewEmployee" data-provider="CreateEmpDetails" finished-at="2026-05-22T16:40:16 IST" duration-ms="103922" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[104261]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manishKumar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Man123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Man123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[D:\manish work space\eclipse setup\orangehrm_automation\src\test\resources\testdata\samplePic.jpg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43537ae943c8901e92912392baf1231d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49168}, goog:processID: 7336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49168/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43537ae943c8901e92912392baf1231d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.addNewEmployee(TC004AdditionAndDelete.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:40:16 IST" name="tearDown" finished-at="2026-05-22T16:40:17 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:40:17 IST" name="setup" finished-at="2026-05-22T16:40:18 IST" duration-ms="1697" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:40:18 IST" name="pageSetup" finished-at="2026-05-22T16:40:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:40:18 IST" name="searchEmployee" finished-at="2026-05-22T16:42:02 IST" duration-ms="103666" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, goog:processID: 19892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 069032e74fc03506f1c59b2b3f4173ca]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, goog:processID: 19892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 069032e74fc03506f1c59b2b3f4173ca
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchEmployee -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:33 IST" name="pageSetup" finished-at="2026-05-22T15:07:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:42 IST" name="tearDown" finished-at="2026-05-22T15:07:44 IST" duration-ms="1874" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:42:02 IST" name="tearDown" finished-at="2026-05-22T16:42:02 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:44 IST" name="setup" finished-at="2026-05-22T15:07:51 IST" duration-ms="6782" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:42:02 IST" name="setup" finished-at="2026-05-22T16:42:05 IST" duration-ms="2703" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:51 IST" name="pageSetup" finished-at="2026-05-22T15:07:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:42:05 IST" name="pageSetup" finished-at="2026-05-22T16:42:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:07:51 IST" name="deleteEmployee" finished-at="2026-05-22T15:08:04 IST" duration-ms="12779" status="PASS">
+        <test-method retried="true" signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:42:05 IST" name="searchEmployee" finished-at="2026-05-22T16:43:49 IST" duration-ms="104007" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49529}, goog:processID: 19280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 780df1a6a5b51a70809c533d93c45872]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49529}, goog:processID: 19280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49529/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 780df1a6a5b51a70809c533d93c45872
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:43:49 IST" name="tearDown" finished-at="2026-05-22T16:43:50 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:43:50 IST" name="setup" finished-at="2026-05-22T16:43:52 IST" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:43:52 IST" name="pageSetup" finished-at="2026-05-22T16:43:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="searchEmployee()[pri:2, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:43:52 IST" name="searchEmployee" finished-at="2026-05-22T16:45:36 IST" duration-ms="103968" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bfe9f127a05e075a11ffb75981cb56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50416}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08bfe9f127a05e075a11ffb75981cb56
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.searchEmployee(TC004AdditionAndDelete.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:45:36 IST" name="tearDown" finished-at="2026-05-22T16:45:37 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:45:37 IST" name="setup" finished-at="2026-05-22T16:45:38 IST" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:45:38 IST" name="pageSetup" finished-at="2026-05-22T16:45:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:45:38 IST" name="deleteEmployee" finished-at="2026-05-22T16:47:22 IST" duration-ms="103595" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 16356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37fc24362c80c2e7f53801a9ece4e495]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 16356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37fc24362c80c2e7f53801a9ece4e495
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@52de51b6]" started-at="2026-05-22T15:08:04 IST" name="tearDown" finished-at="2026-05-22T15:08:06 IST" duration-ms="1965" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:47:22 IST" name="tearDown" finished-at="2026-05-22T16:47:22 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:47:22 IST" name="setup" finished-at="2026-05-22T16:47:24 IST" duration-ms="1723" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:47:24 IST" name="pageSetup" finished-at="2026-05-22T16:47:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:47:24 IST" name="deleteEmployee" finished-at="2026-05-22T16:49:08 IST" duration-ms="103589" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50882}, goog:processID: 13724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50882/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8f12c381af411cbf843c6709798b54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50882}, goog:processID: 13724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50882/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8f12c381af411cbf843c6709798b54
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:49:08 IST" name="tearDown" finished-at="2026-05-22T16:49:08 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:49:08 IST" name="setup" finished-at="2026-05-22T16:49:10 IST" duration-ms="2349" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:49:10 IST" name="pageSetup" finished-at="2026-05-22T16:49:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="deleteEmployee()[pri:3, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:49:10 IST" name="deleteEmployee" finished-at="2026-05-22T16:50:54 IST" duration-ms="103647" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac710f411688fa67346e82ed5b083f3c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //ul[@class="oxd-main-menu"]/li[2] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class="oxd-main-menu"]/li[2]"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51095}, goog:processID: 17124, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51095/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac710f411688fa67346e82ed5b083f3c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleClickable(ActionDriver.java:55)
+at com.orangehrm.actiondriver.ActionDriver.clickOn(ActionDriver.java:80)
+at com.orangehrm.pages.PIMpage.clickPIMtab(PIMpage.java:49)
+at com.orangehrm.tesetcases.TC004AdditionAndDelete.deleteEmployee(TC004AdditionAndDelete.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC004AdditionAndDelete@61ce23ac]" started-at="2026-05-22T16:50:54 IST" name="tearDown" finished-at="2026-05-22T16:50:55 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tesetcases.TC004AdditionAndDelete -->
       <class name="com.orangehrm.tesetcases.TC001InvalidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:06:52 IST" name="setup" finished-at="2026-05-22T15:07:04 IST" duration-ms="12105" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:34:17 IST" name="setup" finished-at="2026-05-22T16:34:52 IST" duration-ms="34583" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:04 IST" name="pageSetup" finished-at="2026-05-22T15:07:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:34:52 IST" name="pageSetup" finished-at="2026-05-22T16:34:52 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:04 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:07:11 IST" duration-ms="6441" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:34:52 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T16:34:57 IST" duration-ms="5302" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -685,26 +721,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:11 IST" name="tearDown" finished-at="2026-05-22T15:07:13 IST" duration-ms="1451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:34:58 IST" name="tearDown" finished-at="2026-05-22T16:34:58 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:13 IST" name="setup" finished-at="2026-05-22T15:07:23 IST" duration-ms="10567" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:34:58 IST" name="setup" finished-at="2026-05-22T16:35:01 IST" duration-ms="2632" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:23 IST" name="pageSetup" finished-at="2026-05-22T15:07:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:01 IST" name="pageSetup" finished-at="2026-05-22T16:35:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:23 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:07:26 IST" duration-ms="2781" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:01 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T16:35:04 IST" duration-ms="3396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -720,22 +754,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:27 IST" name="tearDown" finished-at="2026-05-22T15:07:29 IST" duration-ms="2176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:05 IST" name="tearDown" finished-at="2026-05-22T16:35:06 IST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:29 IST" name="setup" finished-at="2026-05-22T15:07:39 IST" duration-ms="10158" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:06 IST" name="setup" finished-at="2026-05-22T16:35:08 IST" duration-ms="2185" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:39 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T15:07:42 IST" duration-ms="3035" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:08 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2026-05-22T16:35:11 IST" duration-ms="3168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -751,32 +783,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:39 IST" name="pageSetup" finished-at="2026-05-22T15:07:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:08 IST" name="pageSetup" finished-at="2026-05-22T16:35:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@18c5069b]" started-at="2026-05-22T15:07:43 IST" name="tearDown" finished-at="2026-05-22T15:07:45 IST" duration-ms="1892" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC001InvalidLoginTest@655ef322]" started-at="2026-05-22T16:35:12 IST" name="tearDown" finished-at="2026-05-22T16:35:12 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tesetcases.TC001InvalidLoginTest -->
       <class name="com.orangehrm.tesetcases.TC003validLoginRemoteTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@3a0d172f]" started-at="2026-05-22T15:06:52 IST" name="setup" finished-at="2026-05-22T15:07:01 IST" duration-ms="9164" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:34:17 IST" name="setup" finished-at="2026-05-22T16:34:52 IST" duration-ms="34441" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@3a0d172f]" started-at="2026-05-22T15:07:01 IST" name="pageSetup" finished-at="2026-05-22T15:07:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:34:52 IST" name="pageSetup" finished-at="2026-05-22T16:34:52 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@3a0d172f]" started-at="2026-05-22T15:07:01 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T15:07:08 IST" duration-ms="6599" status="PASS">
+        <test-method retried="true" signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:34:52 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T16:36:40 IST" duration-ms="107770" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -789,14 +819,200 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64916}, goog:processID: 4236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64916/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d55303657ac9900730ec8b1d0c9a69e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64916}, goog:processID: 4236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64916/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d55303657ac9900730ec8b1d0c9a69e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleVisibility(ActionDriver.java:45)
+at com.orangehrm.actiondriver.ActionDriver.isVisible(ActionDriver.java:178)
+at com.orangehrm.pages.HomePage.isDeshboardDisplayed(HomePage.java:26)
+at com.orangehrm.tesetcases.TC003validLoginRemoteTest.validLoginTest(TC003validLoginRemoteTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@3a0d172f]" started-at="2026-05-22T15:07:09 IST" name="tearDown" finished-at="2026-05-22T15:07:10 IST" duration-ms="1568" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:36:40 IST" name="tearDown" finished-at="2026-05-22T16:36:40 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:36:40 IST" name="setup" finished-at="2026-05-22T16:36:44 IST" duration-ms="3787" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:36:44 IST" name="pageSetup" finished-at="2026-05-22T16:36:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method retried="true" signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:36:44 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T16:38:29 IST" duration-ms="105178" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 12008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1905f7952a1c72d641cc0f3a87602c38]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 12008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1905f7952a1c72d641cc0f3a87602c38
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleVisibility(ActionDriver.java:45)
+at com.orangehrm.actiondriver.ActionDriver.isVisible(ActionDriver.java:178)
+at com.orangehrm.pages.HomePage.isDeshboardDisplayed(HomePage.java:26)
+at com.orangehrm.tesetcases.TC003validLoginRemoteTest.validLoginTest(TC003validLoginRemoteTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:38:29 IST" name="tearDown" finished-at="2026-05-22T16:38:29 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:38:29 IST" name="setup" finished-at="2026-05-22T16:38:32 IST" duration-ms="2912" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:38:32 IST" name="pageSetup" finished-at="2026-05-22T16:38:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:38:32 IST" name="validLoginTest" data-provider="ValidLoginRemote" finished-at="2026-05-22T16:40:17 IST" duration-ms="104945" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8664f676c42d52e6576da95b89618ea9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class="oxd-topbar-header-title"]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="oxd-topbar-header-title"]/span"}.
+(tried for 60 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 19800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8664f676c42d52e6576da95b89618ea9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.orangehrm.actiondriver.ActionDriver.waitForEleVisibility(ActionDriver.java:45)
+at com.orangehrm.actiondriver.ActionDriver.isVisible(ActionDriver.java:178)
+at com.orangehrm.pages.HomePage.isDeshboardDisplayed(HomePage.java:26)
+at com.orangehrm.tesetcases.TC003validLoginRemoteTest.validLoginTest(TC003validLoginRemoteTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tesetcases.TC003validLoginRemoteTest@7e276594]" started-at="2026-05-22T16:40:17 IST" name="tearDown" finished-at="2026-05-22T16:40:18 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tesetcases.TC003validLoginRemoteTest -->
-    </test> <!-- firefoxTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
